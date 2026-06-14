@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++17 -Wall -O3 CMakeFiles/read_write_example.dir/test/read_write_example.cpp.o -o read_write_example   -L/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/hardware/tita_robot/lib/amd64  -Wl,-rpath,/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/hardware/tita_robot/lib/amd64 -ltita_robot 

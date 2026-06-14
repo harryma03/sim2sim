@@ -1,0 +1,2 @@
+/home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/config/controllers.yaml
+/home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/launch/mujoco_bridge.launch.py

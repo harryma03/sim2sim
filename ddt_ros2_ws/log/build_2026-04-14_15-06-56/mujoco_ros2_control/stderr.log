@@ -1,0 +1,23 @@
+gmake[2]: *** 正在删除文件“CMakeFiles/mujoco_ros2_control-system.dir/src/mujoco_ros2_control.cpp.o”
+gmake[2]: *** 正在删除文件“CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control.cpp.o”
+gmake[2]: *** [CMakeFiles/mujoco_ros2_control.dir/build.make:104: CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control.cpp.o] 中断
+gmake[2]: *** [CMakeFiles/mujoco_ros2_control-system.dir/build.make:90: CMakeFiles/mujoco_ros2_control-system.dir/src/mujoco_ros2_control.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/mujoco_ros2_control-system.dir/all] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mujoco_ros2_control.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断
+Traceback (most recent call last):
+  File "/home/aiseon/.local/bin/cmake", line 6, in <module>
+    sys.exit(cmake())
+  File "/home/aiseon/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in cmake
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/home/aiseon/.local/lib/python3.10/site-packages/cmake/__init__.py", line 39, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

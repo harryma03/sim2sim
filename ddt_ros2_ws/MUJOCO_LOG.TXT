@@ -1,0 +1,27 @@
+Sun Mar 29 16:41:16 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 35196. The simulation is unstable. Time = 74.1160.
+
+Sun Mar 29 16:48:53 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 35364. The simulation is unstable. Time = 45.8780.
+
+Sat Jun 13 16:58:43 2026
+ERROR: could not initialize GLFW
+
+Sat Jun 13 17:04:11 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 34426. The simulation is unstable. Time = 129.7600.
+
+Sun Jun 14 17:54:53 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 34426. The simulation is unstable. Time = 48.4000.
+
+Sun Jun 14 18:30:18 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 34426. The simulation is unstable. Time = 26.2160.
+
+Sun Jun 14 18:46:49 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 34426. The simulation is unstable. Time = 74.1800.
+
+Sun Jun 14 20:23:42 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 14.7960.
+
+Sun Jun 14 20:24:34 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 38.1320.
+

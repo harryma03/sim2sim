@@ -1,0 +1,434 @@
+[0.000000] (-) TimerEvent: {}
+[0.000443] (-) JobUnselected: {'identifier': 'd1_description'}
+[0.000479] (-) JobUnselected: {'identifier': 'd1h_description'}
+[0.000503] (-) JobUnselected: {'identifier': 'gazebo_bridge'}
+[0.000523] (-) JobUnselected: {'identifier': 'keyboard_controller'}
+[0.000543] (-) JobUnselected: {'identifier': 'mujoco_bridge'}
+[0.000562] (-) JobUnselected: {'identifier': 'mujoco_ros2_control'}
+[0.000581] (-) JobUnselected: {'identifier': 'mujoco_sim_ros2'}
+[0.000599] (-) JobUnselected: {'identifier': 'rl_controller'}
+[0.000619] (-) JobUnselected: {'identifier': 'ros_utils'}
+[0.000638] (-) JobUnselected: {'identifier': 'teleop_command'}
+[0.000661] (-) JobUnselected: {'identifier': 'tita_description'}
+[0.000680] (-) JobUnselected: {'identifier': 'titatit_description'}
+[0.000698] (-) JobUnselected: {'identifier': 'webots_bridge'}
+[0.000720] (tita_robot) JobQueued: {'identifier': 'tita_robot', 'dependencies': OrderedDict()}
+[0.000743] (hardware_bridge) JobQueued: {'identifier': 'hardware_bridge', 'dependencies': OrderedDict([('tita_robot', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot')])}
+[0.000768] (tita_robot) JobStarted: {'identifier': 'tita_robot'}
+[0.025156] (tita_robot) JobProgress: {'identifier': 'tita_robot', 'progress': 'cmake'}
+[0.025774] (tita_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/hardware/tita_robot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot'], 'cwd': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4442'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aiseon/tita/sim2sim2real/mujoco/bin:/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/4442,unix/aiseon:/tmp/.ICE-unix/4442'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bbbf5b3_57d4_4743_95ce_c2c449a50ea6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('GNOME_TERMINAL_SERVICE', ':1.205'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/aiseon/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/aiseon/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('CPATH', '/home/aiseon/tita/sim2sim2real/mujoco/include:'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco/mujoco210/bin/mjkey.txt'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.093793] (-) TimerEvent: {}
+[0.194097] (-) TimerEvent: {}
+[0.238366] (tita_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.294186] (-) TimerEvent: {}
+[0.394520] (-) TimerEvent: {}
+[0.424464] (tita_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.451961] (tita_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.494619] (-) TimerEvent: {}
+[0.594982] (-) TimerEvent: {}
+[0.696169] (-) TimerEvent: {}
+[0.731556] (tita_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.757689] (tita_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.760785] (tita_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.760876] (tita_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.766041] (tita_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.796250] (-) TimerEvent: {}
+[0.896555] (-) TimerEvent: {}
+[0.996908] (-) TimerEvent: {}
+[1.067123] (tita_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.086527] (tita_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.092674] (tita_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.092850] (tita_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.093038] (tita_robot) StderrLine: {'line': b'\x1b[0m-- CMAKE_SYSTEM_PROCESSOR: x86_64\x1b[0m\n'}
+[1.096978] (-) TimerEvent: {}
+[1.099300] (tita_robot) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.197078] (-) TimerEvent: {}
+[1.297472] (-) TimerEvent: {}
+[1.397928] (-) TimerEvent: {}
+[1.498334] (-) TimerEvent: {}
+[1.598812] (-) TimerEvent: {}
+[1.702367] (-) TimerEvent: {}
+[1.802800] (-) TimerEvent: {}
+[1.903209] (-) TimerEvent: {}
+[2.003615] (-) TimerEvent: {}
+[2.104056] (-) TimerEvent: {}
+[2.206847] (-) TimerEvent: {}
+[2.234079] (tita_robot) StdoutLine: {'line': b'-- Found Python3: /home/aiseon/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter \n'}
+[2.306947] (-) TimerEvent: {}
+[2.407329] (-) TimerEvent: {}
+[2.449495] (tita_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.507430] (-) TimerEvent: {}
+[2.607862] (-) TimerEvent: {}
+[2.708251] (-) TimerEvent: {}
+[2.795746] (tita_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.805572] (tita_robot) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/tita_robot` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[2.808327] (-) TimerEvent: {}
+[2.820664] (tita_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.829327] (tita_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[2.832840] (tita_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot\n'}
+[2.858038] (tita_robot) CommandEnded: {'returncode': 0}
+[2.858905] (tita_robot) JobProgress: {'identifier': 'tita_robot', 'progress': 'build'}
+[2.860041] (tita_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot', '--', '-j192', '-l192'], 'cwd': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4442'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aiseon/tita/sim2sim2real/mujoco/bin:/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/4442,unix/aiseon:/tmp/.ICE-unix/4442'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bbbf5b3_57d4_4743_95ce_c2c449a50ea6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('GNOME_TERMINAL_SERVICE', ':1.205'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/aiseon/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/aiseon/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('CPATH', '/home/aiseon/tita/sim2sim2real/mujoco/include:'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco/mujoco210/bin/mjkey.txt'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.910671] (-) TimerEvent: {}
+[3.010952] (-) TimerEvent: {}
+[3.061889] (tita_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/read_write_example.dir/test/read_write_example.cpp.o\x1b[0m\n'}
+[3.111048] (-) TimerEvent: {}
+[3.211363] (-) TimerEvent: {}
+[3.311711] (-) TimerEvent: {}
+[3.412077] (-) TimerEvent: {}
+[3.512441] (-) TimerEvent: {}
+[3.617302] (-) TimerEvent: {}
+[3.717696] (-) TimerEvent: {}
+[3.818057] (-) TimerEvent: {}
+[3.918428] (-) TimerEvent: {}
+[4.018822] (-) TimerEvent: {}
+[4.119189] (-) TimerEvent: {}
+[4.219553] (-) TimerEvent: {}
+[4.319943] (-) TimerEvent: {}
+[4.420304] (-) TimerEvent: {}
+[4.520706] (-) TimerEvent: {}
+[4.621065] (-) TimerEvent: {}
+[4.721436] (-) TimerEvent: {}
+[4.821845] (-) TimerEvent: {}
+[4.924824] (-) TimerEvent: {}
+[5.025160] (-) TimerEvent: {}
+[5.026488] (tita_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable read_write_example\x1b[0m\n'}
+[5.125259] (-) TimerEvent: {}
+[5.225704] (-) TimerEvent: {}
+[5.256679] (tita_robot) StdoutLine: {'line': b'[100%] Built target read_write_example\n'}
+[5.298376] (tita_robot) CommandEnded: {'returncode': 0}
+[5.299278] (tita_robot) JobProgress: {'identifier': 'tita_robot', 'progress': 'install'}
+[5.326251] (-) TimerEvent: {}
+[5.334164] (tita_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot'], 'cwd': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4442'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aiseon/tita/sim2sim2real/mujoco/bin:/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/4442,unix/aiseon:/tmp/.ICE-unix/4442'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bbbf5b3_57d4_4743_95ce_c2c449a50ea6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('GNOME_TERMINAL_SERVICE', ':1.205'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/aiseon/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/aiseon/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('CPATH', '/home/aiseon/tita/sim2sim2real/mujoco/include:'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco/mujoco210/bin/mjkey.txt'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.356745] (tita_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.357402] (tita_robot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.357721] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib/libtita_robot.so\n'}
+[5.393434] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib/tita_robot/read_write_example\n'}
+[5.426344] (-) TimerEvent: {}
+[5.429737] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/library_path.sh\n'}
+[5.459877] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/library_path.dsv\n'}
+[5.491204] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/canfd_api.hpp\n'}
+[5.526247] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/can_utils.hpp\n'}
+[5.526464] (-) TimerEvent: {}
+[5.558681] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_common.hpp\n'}
+[5.587430] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_id.hpp\n'}
+[5.618096] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_receiver.hpp\n'}
+[5.626568] (-) TimerEvent: {}
+[5.650726] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_sender.hpp\n'}
+[5.680930] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/visibility_control.hpp\n'}
+[5.711911] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/tita_robot.hpp\n'}
+[5.727772] (-) TimerEvent: {}
+[5.743432] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/package_run_dependencies/tita_robot\n'}
+[5.773798] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/parent_prefix_path/tita_robot\n'}
+[5.806573] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/ament_prefix_path.sh\n'}
+[5.830685] (-) TimerEvent: {}
+[5.843066] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/ament_prefix_path.dsv\n'}
+[5.874572] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/path.sh\n'}
+[5.907282] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/path.dsv\n'}
+[5.930776] (-) TimerEvent: {}
+[5.939725] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.bash\n'}
+[5.974092] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.sh\n'}
+[6.007050] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.zsh\n'}
+[6.030879] (-) TimerEvent: {}
+[6.033466] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.dsv\n'}
+[6.059129] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/package.dsv\n'}
+[6.091673] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/packages/tita_robot\n'}
+[6.123419] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.131694] (-) TimerEvent: {}
+[6.154088] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.186192] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/tita_robotConfig.cmake\n'}
+[6.218674] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/tita_robotConfig-version.cmake\n'}
+[6.231785] (-) TimerEvent: {}
+[6.248412] (tita_robot) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/package.xml\n'}
+[6.286053] (tita_robot) CommandEnded: {'returncode': 0}
+[6.329519] (tita_robot) JobEnded: {'identifier': 'tita_robot', 'rc': 0}
+[6.331187] (hardware_bridge) JobStarted: {'identifier': 'hardware_bridge'}
+[6.331869] (-) TimerEvent: {}
+[6.368978] (hardware_bridge) JobProgress: {'identifier': 'hardware_bridge', 'progress': 'cmake'}
+[6.375275] (hardware_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/hardware/hardware_bridge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge'], 'cwd': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/hardware_bridge', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4442'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aiseon/tita/sim2sim2real/mujoco/bin:/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/4442,unix/aiseon:/tmp/.ICE-unix/4442'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bbbf5b3_57d4_4743_95ce_c2c449a50ea6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('GNOME_TERMINAL_SERVICE', ':1.205'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/aiseon/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/hardware_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/aiseon/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('CPATH', '/home/aiseon/tita/sim2sim2real/mujoco/include:'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco/mujoco210/bin/mjkey.txt'), ('CMAKE_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot:/opt/ros/humble')]), 'shell': False}
+[6.431976] (-) TimerEvent: {}
+[6.532289] (-) TimerEvent: {}
+[6.568701] (hardware_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.632391] (-) TimerEvent: {}
+[6.732701] (-) TimerEvent: {}
+[6.746983] (hardware_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.780710] (hardware_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.832788] (-) TimerEvent: {}
+[6.933114] (-) TimerEvent: {}
+[7.034720] (-) TimerEvent: {}
+[7.040612] (hardware_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.063442] (hardware_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.063790] (hardware_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.064252] (hardware_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.073658] (hardware_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.138681] (-) TimerEvent: {}
+[7.238994] (-) TimerEvent: {}
+[7.339343] (-) TimerEvent: {}
+[7.359410] (hardware_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.376301] (hardware_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.376594] (hardware_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.377195] (hardware_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.383153] (hardware_bridge) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[7.439422] (-) TimerEvent: {}
+[7.539694] (-) TimerEvent: {}
+[7.640044] (-) TimerEvent: {}
+[7.740408] (-) TimerEvent: {}
+[7.840788] (-) TimerEvent: {}
+[7.941165] (-) TimerEvent: {}
+[8.042702] (-) TimerEvent: {}
+[8.143085] (-) TimerEvent: {}
+[8.243462] (-) TimerEvent: {}
+[8.343866] (-) TimerEvent: {}
+[8.445267] (-) TimerEvent: {}
+[8.545675] (-) TimerEvent: {}
+[8.589570] (hardware_bridge) StdoutLine: {'line': b'-- Found Python3: /home/aiseon/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter \n'}
+[8.645688] (-) TimerEvent: {}
+[8.746038] (-) TimerEvent: {}
+[8.805764] (hardware_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.846130] (-) TimerEvent: {}
+[8.946476] (-) TimerEvent: {}
+[9.046856] (-) TimerEvent: {}
+[9.147203] (-) TimerEvent: {}
+[9.235450] (hardware_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.248669] (hardware_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.248867] (-) TimerEvent: {}
+[9.270713] (hardware_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.298421] (hardware_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.343986] (hardware_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.348955] (-) TimerEvent: {}
+[9.449230] (-) TimerEvent: {}
+[9.549731] (-) TimerEvent: {}
+[9.651955] (-) TimerEvent: {}
+[9.752496] (-) TimerEvent: {}
+[9.852883] (-) TimerEvent: {}
+[9.907614] (hardware_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.917334] (hardware_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.952961] (-) TimerEvent: {}
+[9.981594] (hardware_bridge) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.053054] (-) TimerEvent: {}
+[10.153518] (-) TimerEvent: {}
+[10.243363] (hardware_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.248377] (hardware_bridge) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.253590] (-) TimerEvent: {}
+[10.298703] (hardware_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.309429] (hardware_bridge) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.338684] (hardware_bridge) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.353667] (-) TimerEvent: {}
+[10.372247] (hardware_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.396389] (hardware_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.453762] (-) TimerEvent: {}
+[10.554089] (-) TimerEvent: {}
+[10.654432] (-) TimerEvent: {}
+[10.682164] (hardware_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.686715] (hardware_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.754520] (-) TimerEvent: {}
+[10.857704] (-) TimerEvent: {}
+[10.958046] (-) TimerEvent: {}
+[10.970010] (hardware_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.971577] (hardware_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.058140] (-) TimerEvent: {}
+[11.158496] (-) TimerEvent: {}
+[11.227347] (hardware_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.258594] (-) TimerEvent: {}
+[11.260820] (hardware_bridge) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/hardware_bridge` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[11.271728] (hardware_bridge) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[11.272182] (hardware_bridge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.277701] (hardware_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.277908] (hardware_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/hardware/hardware_bridge/include\n'}
+[11.277983] (hardware_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.279032] (hardware_bridge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.279173] (hardware_bridge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.279640] (hardware_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.282665] (hardware_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.289402] (hardware_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.325228] (hardware_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[11.335336] (hardware_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/hardware_bridge\n'}
+[11.358666] (-) TimerEvent: {}
+[11.376611] (hardware_bridge) CommandEnded: {'returncode': 0}
+[11.377662] (hardware_bridge) JobProgress: {'identifier': 'hardware_bridge', 'progress': 'build'}
+[11.379276] (hardware_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/hardware_bridge', '--', '-j192', '-l192'], 'cwd': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/hardware_bridge', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4442'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aiseon/tita/sim2sim2real/mujoco/bin:/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/4442,unix/aiseon:/tmp/.ICE-unix/4442'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bbbf5b3_57d4_4743_95ce_c2c449a50ea6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('GNOME_TERMINAL_SERVICE', ':1.205'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/aiseon/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/hardware_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/aiseon/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('CPATH', '/home/aiseon/tita/sim2sim2real/mujoco/include:'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco/mujoco210/bin/mjkey.txt'), ('CMAKE_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot:/opt/ros/humble')]), 'shell': False}
+[11.458770] (-) TimerEvent: {}
+[11.559107] (-) TimerEvent: {}
+[11.600695] (hardware_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hardware_bridge.dir/src/hardware_bridge_node.cpp.o\x1b[0m\n'}
+[11.659205] (-) TimerEvent: {}
+[11.759546] (-) TimerEvent: {}
+[11.859956] (-) TimerEvent: {}
+[11.960359] (-) TimerEvent: {}
+[12.060708] (-) TimerEvent: {}
+[12.161703] (-) TimerEvent: {}
+[12.262085] (-) TimerEvent: {}
+[12.363500] (-) TimerEvent: {}
+[12.463941] (-) TimerEvent: {}
+[12.564340] (-) TimerEvent: {}
+[12.666254] (-) TimerEvent: {}
+[12.766671] (-) TimerEvent: {}
+[12.867047] (-) TimerEvent: {}
+[12.967433] (-) TimerEvent: {}
+[13.068320] (-) TimerEvent: {}
+[13.170695] (-) TimerEvent: {}
+[13.271070] (-) TimerEvent: {}
+[13.371461] (-) TimerEvent: {}
+[13.471892] (-) TimerEvent: {}
+[13.572284] (-) TimerEvent: {}
+[13.672731] (-) TimerEvent: {}
+[13.775711] (-) TimerEvent: {}
+[13.876142] (-) TimerEvent: {}
+[13.976545] (-) TimerEvent: {}
+[14.076967] (-) TimerEvent: {}
+[14.177368] (-) TimerEvent: {}
+[14.277711] (-) TimerEvent: {}
+[14.378089] (-) TimerEvent: {}
+[14.478706] (-) TimerEvent: {}
+[14.581709] (-) TimerEvent: {}
+[14.682088] (-) TimerEvent: {}
+[14.782477] (-) TimerEvent: {}
+[14.884839] (-) TimerEvent: {}
+[14.985393] (-) TimerEvent: {}
+[15.086031] (-) TimerEvent: {}
+[15.186596] (-) TimerEvent: {}
+[15.287186] (-) TimerEvent: {}
+[15.388959] (-) TimerEvent: {}
+[15.489532] (-) TimerEvent: {}
+[15.590166] (-) TimerEvent: {}
+[15.694713] (-) TimerEvent: {}
+[15.795098] (-) TimerEvent: {}
+[15.895471] (-) TimerEvent: {}
+[15.996044] (-) TimerEvent: {}
+[16.096622] (-) TimerEvent: {}
+[16.197226] (-) TimerEvent: {}
+[16.297813] (-) TimerEvent: {}
+[16.401142] (-) TimerEvent: {}
+[16.501512] (-) TimerEvent: {}
+[16.602077] (-) TimerEvent: {}
+[16.702686] (-) TimerEvent: {}
+[16.803233] (-) TimerEvent: {}
+[16.906804] (-) TimerEvent: {}
+[17.007189] (-) TimerEvent: {}
+[17.107795] (-) TimerEvent: {}
+[17.208376] (-) TimerEvent: {}
+[17.308987] (-) TimerEvent: {}
+[17.409559] (-) TimerEvent: {}
+[17.511074] (-) TimerEvent: {}
+[17.611696] (-) TimerEvent: {}
+[17.712276] (-) TimerEvent: {}
+[17.814857] (-) TimerEvent: {}
+[17.915257] (-) TimerEvent: {}
+[18.015698] (-) TimerEvent: {}
+[18.116090] (-) TimerEvent: {}
+[18.216492] (-) TimerEvent: {}
+[18.318699] (-) TimerEvent: {}
+[18.419094] (-) TimerEvent: {}
+[18.519485] (-) TimerEvent: {}
+[18.619916] (-) TimerEvent: {}
+[18.720308] (-) TimerEvent: {}
+[18.820709] (-) TimerEvent: {}
+[18.923533] (-) TimerEvent: {}
+[19.023952] (-) TimerEvent: {}
+[19.124341] (-) TimerEvent: {}
+[19.224715] (-) TimerEvent: {}
+[19.325115] (-) TimerEvent: {}
+[19.425494] (-) TimerEvent: {}
+[19.525911] (-) TimerEvent: {}
+[19.628707] (-) TimerEvent: {}
+[19.729092] (-) TimerEvent: {}
+[19.829475] (-) TimerEvent: {}
+[19.929895] (-) TimerEvent: {}
+[20.030277] (-) TimerEvent: {}
+[20.130686] (-) TimerEvent: {}
+[20.233569] (-) TimerEvent: {}
+[20.333984] (-) TimerEvent: {}
+[20.434366] (-) TimerEvent: {}
+[20.534711] (-) TimerEvent: {}
+[20.636711] (-) TimerEvent: {}
+[20.737072] (-) TimerEvent: {}
+[20.837439] (-) TimerEvent: {}
+[20.939047] (-) TimerEvent: {}
+[21.039422] (-) TimerEvent: {}
+[21.142135] (-) TimerEvent: {}
+[21.242499] (-) TimerEvent: {}
+[21.342901] (-) TimerEvent: {}
+[21.443276] (-) TimerEvent: {}
+[21.548204] (-) TimerEvent: {}
+[21.648581] (-) TimerEvent: {}
+[21.748975] (-) TimerEvent: {}
+[21.849342] (-) TimerEvent: {}
+[21.949707] (-) TimerEvent: {}
+[22.050262] (-) TimerEvent: {}
+[22.151976] (-) TimerEvent: {}
+[22.252340] (-) TimerEvent: {}
+[22.354707] (-) TimerEvent: {}
+[22.455071] (-) TimerEvent: {}
+[22.555450] (-) TimerEvent: {}
+[22.657706] (-) TimerEvent: {}
+[22.758089] (-) TimerEvent: {}
+[22.860715] (-) TimerEvent: {}
+[22.961105] (-) TimerEvent: {}
+[23.061472] (-) TimerEvent: {}
+[23.161865] (-) TimerEvent: {}
+[23.262992] (-) TimerEvent: {}
+[23.363711] (-) TimerEvent: {}
+[23.464621] (-) TimerEvent: {}
+[23.565708] (-) TimerEvent: {}
+[23.666261] (-) TimerEvent: {}
+[23.769971] (-) TimerEvent: {}
+[23.870334] (-) TimerEvent: {}
+[23.970708] (-) TimerEvent: {}
+[24.071078] (-) TimerEvent: {}
+[24.173048] (-) TimerEvent: {}
+[24.273598] (-) TimerEvent: {}
+[24.374192] (-) TimerEvent: {}
+[24.476421] (-) TimerEvent: {}
+[24.576832] (-) TimerEvent: {}
+[24.677450] (-) TimerEvent: {}
+[24.781981] (-) TimerEvent: {}
+[24.882337] (-) TimerEvent: {}
+[24.955366] (hardware_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libhardware_bridge.so\x1b[0m\n'}
+[24.982437] (-) TimerEvent: {}
+[25.082794] (-) TimerEvent: {}
+[25.183158] (-) TimerEvent: {}
+[25.283545] (-) TimerEvent: {}
+[25.320605] (hardware_bridge) StdoutLine: {'line': b'[100%] Built target hardware_bridge\n'}
+[25.361087] (hardware_bridge) CommandEnded: {'returncode': 0}
+[25.364205] (hardware_bridge) JobProgress: {'identifier': 'hardware_bridge', 'progress': 'install'}
+[25.364434] (hardware_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/hardware_bridge'], 'cwd': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/hardware_bridge', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4442'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aiseon/tita/sim2sim2real/mujoco/bin:/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/4442,unix/aiseon:/tmp/.ICE-unix/4442'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bbbf5b3_57d4_4743_95ce_c2c449a50ea6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('GNOME_TERMINAL_SERVICE', ':1.205'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/aiseon/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/hardware_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/aiseon/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('CPATH', '/home/aiseon/tita/sim2sim2real/mujoco/include:'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco/mujoco210/bin/mjkey.txt'), ('CMAKE_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot:/opt/ros/humble')]), 'shell': False}
+[25.383613] (-) TimerEvent: {}
+[25.394598] (hardware_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.395309] (hardware_bridge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.395677] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge//hardware_bridge_plugin.xml\n'}
+[25.435673] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/config/controllers.yaml\n'}
+[25.468677] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/launch/hardware_bridge.launch.py\n'}
+[25.483669] (-) TimerEvent: {}
+[25.503351] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/include/hardware_bridge/hardware_bridge_node.hpp\n'}
+[25.533109] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/environment/library_path.sh\n'}
+[25.565498] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/environment/library_path.dsv\n'}
+[25.583751] (-) TimerEvent: {}
+[25.603179] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/lib/libhardware_bridge.so\n'}
+[25.643656] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/ament_index/resource_index/package_run_dependencies/hardware_bridge\n'}
+[25.673819] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/ament_index/resource_index/parent_prefix_path/hardware_bridge\n'}
+[25.683834] (-) TimerEvent: {}
+[25.708169] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/environment/ament_prefix_path.sh\n'}
+[25.741475] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/environment/ament_prefix_path.dsv\n'}
+[25.773178] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/environment/path.sh\n'}
+[25.783916] (-) TimerEvent: {}
+[25.809481] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/environment/path.dsv\n'}
+[25.840529] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/local_setup.bash\n'}
+[25.877158] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/local_setup.sh\n'}
+[25.885405] (-) TimerEvent: {}
+[25.909590] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/local_setup.zsh\n'}
+[25.938858] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/local_setup.dsv\n'}
+[25.968970] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/package.dsv\n'}
+[25.985493] (-) TimerEvent: {}
+[25.999306] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/ament_index/resource_index/packages/hardware_bridge\n'}
+[26.040011] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_bridge\n'}
+[26.075539] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.085578] (-) TimerEvent: {}
+[26.105810] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.139990] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.172761] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/cmake/hardware_bridgeConfig.cmake\n'}
+[26.185668] (-) TimerEvent: {}
+[26.202738] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/cmake/hardware_bridgeConfig-version.cmake\n'}
+[26.237898] (hardware_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/hardware_bridge/share/hardware_bridge/package.xml\n'}
+[26.278652] (hardware_bridge) CommandEnded: {'returncode': 0}
+[26.287811] (-) TimerEvent: {}
+[26.315479] (hardware_bridge) JobEnded: {'identifier': 'hardware_bridge', 'rc': 0}
+[26.321667] (-) EventReactorShutdown: {}

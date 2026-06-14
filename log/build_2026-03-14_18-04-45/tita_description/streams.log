@@ -1,0 +1,36 @@
+[0.026s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/tita_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/tita_description -- -j192 -l192
+[0.131s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/tita_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/tita_description -- -j192 -l192
+[0.134s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/tita_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/tita_description
+[0.148s] -- Install configuration: ""
+[0.149s] -- Execute custom install script
+[0.149s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/base_link.STL
+[0.149s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/left_leg_1.STL
+[0.150s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/left_leg_2.STL
+[0.150s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/left_leg_3.STL
+[0.150s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/left_leg_4.STL
+[0.150s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/right_leg_1.STL
+[0.150s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/right_leg_2.STL
+[0.150s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/right_leg_3.STL
+[0.150s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/right_leg_4.STL
+[0.151s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/mujoco/robot.xml
+[0.151s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/mujoco/scene.xml
+[0.151s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/urdf/robot.urdf
+[0.151s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/xacro/materials.xacro
+[0.152s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/xacro/robot.xacro
+[0.152s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/xacro/ros2control.xacro
+[0.152s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/ament_index/resource_index/package_run_dependencies/tita_description
+[0.152s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/ament_index/resource_index/parent_prefix_path/tita_description
+[0.152s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/environment/ament_prefix_path.sh
+[0.152s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/environment/ament_prefix_path.dsv
+[0.153s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/environment/path.sh
+[0.153s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/environment/path.dsv
+[0.154s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/local_setup.bash
+[0.154s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/local_setup.sh
+[0.154s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/local_setup.zsh
+[0.154s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/local_setup.dsv
+[0.154s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/package.dsv
+[0.171s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/ament_index/resource_index/packages/tita_description
+[0.171s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/cmake/tita_descriptionConfig.cmake
+[0.171s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/cmake/tita_descriptionConfig-version.cmake
+[0.171s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/package.xml
+[0.175s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/tita_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/tita_description

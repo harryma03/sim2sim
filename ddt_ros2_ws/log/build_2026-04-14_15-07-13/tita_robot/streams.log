@@ -1,0 +1,5 @@
+[0.015s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot -- -j192 -l192
+[0.113s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_example.dir/test/read_write_example.cpp.o[0m
+[0.753s] [100%] [32m[1mLinking CXX executable read_write_example[0m
+[0.843s] [100%] Built target read_write_example
+[0.860s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot -- -j192 -l192

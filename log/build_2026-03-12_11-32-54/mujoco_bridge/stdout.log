@@ -1,0 +1,30 @@
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aiseon/tita/sim2sim2real/build/mujoco_bridge
+-- Install configuration: ""
+-- Up-to-date: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/config
+-- Up-to-date: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/config/controllers.yaml
+-- Up-to-date: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/launch
+-- Up-to-date: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/launch/mujoco_bridge.launch.py
+-- Execute custom install script
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/ament_index/resource_index/package_run_dependencies/mujoco_bridge
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/ament_index/resource_index/parent_prefix_path/mujoco_bridge
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/environment/path.sh
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/environment/path.dsv
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/local_setup.bash
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/local_setup.sh
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/local_setup.zsh
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/local_setup.dsv
+-- Symlinking: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/package.dsv
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/ament_index/resource_index/packages/mujoco_bridge
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/cmake/mujoco_bridgeConfig.cmake
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/cmake/mujoco_bridgeConfig-version.cmake
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/package.xml

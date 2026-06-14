@@ -1,0 +1,1 @@
+/home/aiseon/tita/sim2sim2real/build/tita_robot/ament_cmake_environment_hooks/local_setup.bash

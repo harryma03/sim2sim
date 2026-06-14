@@ -1,0 +1,61 @@
+[0.026s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/hardware/tita_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot
+[0.241s] -- The C compiler identification is GNU 11.4.0
+[0.424s] -- The CXX compiler identification is GNU 11.4.0
+[0.451s] -- Detecting C compiler ABI info
+[0.731s] -- Detecting C compiler ABI info - done
+[0.760s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.760s] -- Detecting C compile features
+[0.760s] -- Detecting C compile features - done
+[0.765s] -- Detecting CXX compiler ABI info
+[1.067s] -- Detecting CXX compiler ABI info - done
+[1.086s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.092s] -- Detecting CXX compile features
+[1.092s] -- Detecting CXX compile features - done
+[1.092s] [0m-- CMAKE_SYSTEM_PROCESSOR: x86_64[0m
+[1.099s] -- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.233s] -- Found Python3: /home/aiseon/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[2.449s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.795s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.805s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/tita_robot` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.820s] -- Configuring done
+[2.829s] -- Generating done
+[2.832s] -- Build files have been written to: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot
+[2.858s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/hardware/tita_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot
+[2.865s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot -- -j192 -l192
+[3.061s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_example.dir/test/read_write_example.cpp.o[0m
+[5.026s] [100%] [32m[1mLinking CXX executable read_write_example[0m
+[5.256s] [100%] Built target read_write_example
+[5.298s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot -- -j192 -l192
+[5.334s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot
+[5.356s] -- Install configuration: ""
+[5.357s] -- Execute custom install script
+[5.357s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib/libtita_robot.so
+[5.393s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib/tita_robot/read_write_example
+[5.429s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/library_path.sh
+[5.459s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/library_path.dsv
+[5.491s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/canfd_api.hpp
+[5.526s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/can_utils.hpp
+[5.558s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_common.hpp
+[5.587s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_id.hpp
+[5.617s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_receiver.hpp
+[5.650s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_sender.hpp
+[5.680s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/visibility_control.hpp
+[5.711s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/tita_robot.hpp
+[5.743s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/package_run_dependencies/tita_robot
+[5.773s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/parent_prefix_path/tita_robot
+[5.806s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/ament_prefix_path.sh
+[5.842s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/ament_prefix_path.dsv
+[5.874s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/path.sh
+[5.907s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/path.dsv
+[5.939s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.bash
+[5.973s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.sh
+[6.006s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.zsh
+[6.033s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.dsv
+[6.058s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/package.dsv
+[6.091s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/packages/tita_robot
+[6.123s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/ament_cmake_export_libraries-extras.cmake
+[6.153s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.186s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/tita_robotConfig.cmake
+[6.218s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/tita_robotConfig-version.cmake
+[6.248s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/package.xml
+[6.286s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot

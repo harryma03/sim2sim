@@ -1,0 +1,115 @@
+[0.013s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/controller/rl_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.164s] -- The CXX compiler identification is GNU 11.4.0
+[0.175s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.345s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.357s] -- Detecting CXX compile features - done
+[0.359s] -- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.710s] -- Found Python3: /home/aiseon/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[0.785s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.952s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.958s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.968s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.982s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.054s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.057s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.172s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.208s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.267s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.347s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.348s] -- Found Threads: TRUE  
+[1.624s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.655s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.668s] In this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/rl_controller` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.
+[1.675s] -- Added test 'clang_format' to check C / C++ code style
+[1.675s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.678s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.678s] -- Configured cppcheck include dirs: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/controller/rl_controller/include
+[1.678s] -- Configured cppcheck exclude dirs and/or files: 
+[1.680s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.680s] -- Configured cpplint exclude dirs and/or files: 
+[1.681s] -- Added test 'lint_cmake' to check CMake code style
+[1.682s] -- Added test 'xmllint' to check XML markup files
+[1.684s] -- Configuring done
+[1.699s] -- Generating done
+[1.705s] -- Build files have been written to: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller
+[1.723s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/controller/rl_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller
+[1.726s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller -- -j192 -l192
+[1.793s] [ 15%] Built target rl_controller_parameters
+[1.839s] [ 23%] Building CXX object CMakeFiles/rl_controller.dir/src/fsm/FSMState_Passive.cpp.o
+[3.086s] [ 30%] Linking CXX shared library librl_controller.so
+[3.316s] [100%] Built target rl_controller
+[3.331s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller -- -j192 -l192
+[3.334s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller
+[3.366s] -- Install configuration: ""
+[3.367s] -- Execute custom install script
+[3.367s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/rl_controller_parameters.hpp
+[3.367s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller//rl_controller_plugin.xml
+[3.368s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/d1/controllers.yaml
+[3.368s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/d1/flat.onnx
+[3.368s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/d1h/controllers.yaml
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/d1h/flat.onnx
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/d1h/squatdown.onnx
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/tita/controllers.yaml
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/tita/flat.onnx
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/titatit/base.onnx
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/titatit/base_1_2700.onnx
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/titatit/bipedal_stand_up.onnx
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/titatit/controllers.yaml
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/titatit/test_cylinder_1027_open_source.onnx
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/config/titatit/titatit_arm.onnx
+[3.369s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/launch/hw.launch.py
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/launch/sim_gazebo.launch.py
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/launch/sim_mujoco.launch.py
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/launch/sim_webots.launch.py
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/common/Math/MathUtilities.h
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/common/Math/orientation_tools.h
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/common/RobotParameters.h
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/common/cppTypes.h
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/common/enumClass.h
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/common/timeMarker.h
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/fsm/ControlFSMData.h
+[3.371s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/fsm/FSM.h
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/fsm/FSMState.h
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/fsm/FSMState_JointPD.h
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/fsm/FSMState_Passive.h
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/fsm/FSMState_RL.h
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/fsm/FSMState_RLPPO.h
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/fsm/FSMState_TransformDown.h
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/fsm/FSMState_TransformUp.h
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/inferrer/engine_inferrer.hpp
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/inferrer/inferrer_base.hpp
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/inferrer/onnx_inferrer.hpp
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/include/rl_controller/rl_controller_node.hpp
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/environment/library_path.sh
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/environment/library_path.dsv
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/lib/librl_controller.so
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/ament_index/resource_index/package_run_dependencies/rl_controller
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/ament_index/resource_index/parent_prefix_path/rl_controller
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/environment/ament_prefix_path.sh
+[3.372s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/environment/ament_prefix_path.dsv
+[3.373s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/environment/path.sh
+[3.373s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/environment/path.dsv
+[3.373s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/local_setup.bash
+[3.373s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/local_setup.sh
+[3.373s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/local_setup.zsh
+[3.373s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/local_setup.dsv
+[3.373s] -- Symlinking: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/package.dsv
+[3.377s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/ament_index/resource_index/packages/rl_controller
+[3.378s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/rl_controller
+[3.378s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.378s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.378s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[3.378s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/cmake/rl_controllerConfig.cmake
+[3.378s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/cmake/rl_controllerConfig-version.cmake
+[3.378s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/share/rl_controller/package.xml
+[3.386s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/rl_controller

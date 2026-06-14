@@ -1,0 +1,496 @@
+[0.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-up-to', 'mujoco_bridge']
+[0.270s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=192, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['mujoco_bridge'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7eb42c275e40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7eb42c275930>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7eb42c275930>>)
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.717s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'ignore_ament_install'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['colcon_pkg']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'colcon_pkg'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['colcon_meta']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'colcon_meta'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['ros']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'ros'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['cmake', 'python']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'cmake'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'python'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['python_setup_py']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'python_setup_py'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'ignore_ament_install'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['colcon_pkg']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'colcon_pkg'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['colcon_meta']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'colcon_meta'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['ros']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'ros'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['cmake', 'python']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'cmake'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'python'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['python_setup_py']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'python_setup_py'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extension 'colcon_pkg'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extensions ['colcon_meta']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extension 'colcon_meta'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extensions ['ros']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extension 'ros'
+[0.761s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/controller/rl_controller' with type 'ros.ament_cmake' and name 'rl_controller'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'ignore'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'ignore_ament_install'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['colcon_pkg']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'colcon_pkg'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['colcon_meta']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'colcon_meta'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['ros']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'ros'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['cmake', 'python']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'cmake'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'python'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['python_setup_py']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'python_setup_py'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extension 'ignore'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extension 'ignore_ament_install'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extensions ['colcon_pkg']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extension 'colcon_pkg'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extensions ['colcon_meta']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extension 'colcon_meta'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extensions ['ros']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extension 'ros'
+[0.768s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/hardware/hardware_bridge' with type 'ros.ament_cmake' and name 'hardware_bridge'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extension 'ros'
+[0.770s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/hardware/tita_robot' with type 'ros.ament_cmake' and name 'tita_robot'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'ros'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['cmake', 'python']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'cmake'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'python'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['python_setup_py']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'python_setup_py'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extension 'colcon_pkg'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extensions ['colcon_meta']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extension 'colcon_meta'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extensions ['ros']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extension 'ros'
+[0.777s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/interaction/keyboard_controller' with type 'ros.ament_cmake' and name 'keyboard_controller'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extension 'ignore_ament_install'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extensions ['colcon_pkg']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extension 'colcon_pkg'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extensions ['colcon_meta']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extension 'colcon_meta'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extensions ['ros']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extension 'ros'
+[0.779s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/interaction/teleop_command' with type 'ros.ament_cmake' and name 'teleop_command'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extensions ['colcon_meta']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extension 'ros'
+[0.785s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/ros_utils' with type 'ros.ament_cmake' and name 'ros_utils'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extension 'ros'
+[0.818s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/simulation/gazebo_bridge' with type 'ros.ament_cmake' and name 'gazebo_bridge'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'ignore_ament_install'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['colcon_pkg']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'colcon_pkg'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'ros'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['cmake', 'python']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'cmake'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'python'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['python_setup_py']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'python_setup_py'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extension 'ignore'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extension 'ignore_ament_install'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extensions ['colcon_pkg']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extension 'colcon_pkg'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extension 'ros'
+[0.820s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge' with type 'ros.ament_cmake' and name 'mujoco_bridge'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extension 'ignore'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extension 'ignore_ament_install'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extensions ['colcon_pkg']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extension 'colcon_pkg'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extensions ['colcon_meta']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extension 'colcon_meta'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extensions ['ros']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extension 'ros'
+[0.822s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control' with type 'ros.ament_cmake' and name 'mujoco_ros2_control'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extension 'ignore_ament_install'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extensions ['colcon_pkg']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extension 'colcon_pkg'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extensions ['colcon_meta']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extension 'colcon_meta'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extensions ['ros']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extension 'ros'
+[0.829s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2' with type 'ros.ament_cmake' and name 'mujoco_sim_ros2'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extension 'ignore'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extension 'ignore_ament_install'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extensions ['colcon_pkg']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extension 'colcon_pkg'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extensions ['colcon_meta']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extension 'colcon_meta'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extensions ['ros']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extension 'ros'
+[0.835s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/simulation/webots_bridge' with type 'ros.ament_cmake' and name 'webots_bridge'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['ignore', 'ignore_ament_install']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'ignore_ament_install'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['colcon_pkg']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['ros']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'ros'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['cmake', 'python']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'cmake'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'python'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['python_setup_py']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'python_setup_py'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extensions ['ignore', 'ignore_ament_install']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extension 'ignore'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extension 'ignore_ament_install'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extensions ['colcon_pkg']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extension 'colcon_pkg'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extensions ['colcon_meta']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extension 'colcon_meta'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extensions ['ros']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extension 'ros'
+[0.846s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/urdfs/d1_description' with type 'ros.ament_cmake' and name 'd1_description'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extensions ['ignore', 'ignore_ament_install']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extension 'ignore'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extension 'ignore_ament_install'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extensions ['colcon_pkg']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extension 'colcon_pkg'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extensions ['colcon_meta']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extension 'colcon_meta'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extensions ['ros']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extension 'ros'
+[0.855s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/urdfs/d1h_description' with type 'ros.ament_cmake' and name 'd1h_description'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extensions ['ignore', 'ignore_ament_install']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extension 'ignore'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extension 'ignore_ament_install'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extensions ['colcon_pkg']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extension 'colcon_pkg'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extensions ['colcon_meta']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extension 'colcon_meta'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extensions ['ros']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extension 'ros'
+[0.863s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/urdfs/tita_description' with type 'ros.ament_cmake' and name 'tita_description'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extensions ['ignore', 'ignore_ament_install']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extension 'ignore'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extension 'ignore_ament_install'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extensions ['colcon_pkg']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extension 'colcon_pkg'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extensions ['colcon_meta']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extension 'colcon_meta'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extensions ['ros']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extension 'ros'
+[0.872s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/urdfs/titatit_description' with type 'ros.ament_cmake' and name 'titatit_description'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.931s] INFO:colcon.colcon_core.package_selection:Skipping package 'teleop_command' in 'ddt_ros2_control/interaction/teleop_command'
+[0.931s] INFO:colcon.colcon_core.package_selection:Skipping package 'rl_controller' in 'ddt_ros2_control/controller/rl_controller'
+[0.931s] INFO:colcon.colcon_core.package_selection:Skipping package 'keyboard_controller' in 'ddt_ros2_control/interaction/keyboard_controller'
+[0.931s] INFO:colcon.colcon_core.package_selection:Skipping package 'hardware_bridge' in 'ddt_ros2_control/hardware/hardware_bridge'
+[0.931s] INFO:colcon.colcon_core.package_selection:Skipping package 'gazebo_bridge' in 'ddt_ros2_control/simulation/gazebo_bridge'
+[0.932s] INFO:colcon.colcon_core.package_selection:Skipping package 'webots_bridge' in 'ddt_ros2_control/simulation/webots_bridge'
+[0.932s] INFO:colcon.colcon_core.package_selection:Skipping package 'titatit_description' in 'ddt_ros2_control/urdfs/titatit_description'
+[0.932s] INFO:colcon.colcon_core.package_selection:Skipping package 'tita_robot' in 'ddt_ros2_control/hardware/tita_robot'
+[0.932s] INFO:colcon.colcon_core.package_selection:Skipping package 'tita_description' in 'ddt_ros2_control/urdfs/tita_description'
+[0.932s] INFO:colcon.colcon_core.package_selection:Skipping package 'ros_utils' in 'ddt_ros2_control/ros_utils'
+[0.932s] INFO:colcon.colcon_core.package_selection:Skipping package 'd1h_description' in 'ddt_ros2_control/urdfs/d1h_description'
+[0.932s] INFO:colcon.colcon_core.package_selection:Skipping package 'd1_description' in 'ddt_ros2_control/urdfs/d1_description'
+[0.932s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.932s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.940s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 440 installed packages in /opt/ros/humble
+[0.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_target' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.093s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.093s] DEBUG:colcon.colcon_core.verb:Building package 'mujoco_sim_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2', 'merge_install': False, 'path': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_args' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_target' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.094s] DEBUG:colcon.colcon_core.verb:Building package 'mujoco_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control', 'merge_install': False, 'path': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_args' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_target' from command line to 'None'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.094s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.095s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[1.095s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[1.095s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[1.095s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.095s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.095s] DEBUG:colcon.colcon_core.verb:Building package 'mujoco_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge', 'merge_install': False, 'path': '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge', 'symlink_install': True, 'test_result_base': None}
+[1.095s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.101s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2' with build type 'ament_cmake'
+[1.101s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2'
+[1.103s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2
+[10.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2
+[10.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2 -- -j192 -l192
+[34.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2 -- -j192 -l192
+[34.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2
+[35.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_sim_ros2)
+[35.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2
+[35.620s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2' for CMake module files
+[35.620s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2' for CMake config files
+[35.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_sim_ros2', 'cmake_prefix_path')
+[35.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.ps1'
+[35.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.dsv'
+[35.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.sh'
+[35.631s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib'
+[35.632s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/bin'
+[35.632s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib/pkgconfig/mujoco_sim_ros2.pc'
+[35.632s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib/python3.10/site-packages'
+[35.633s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/bin'
+[35.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.ps1'
+[35.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.dsv'
+[35.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.sh'
+[35.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.bash'
+[35.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.zsh'
+[35.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/colcon-core/packages/mujoco_sim_ros2)
+[35.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_sim_ros2)
+[35.643s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2' for CMake module files
+[35.643s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2' for CMake config files
+[35.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_sim_ros2', 'cmake_prefix_path')
+[35.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.ps1'
+[35.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.dsv'
+[35.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.sh'
+[35.645s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib'
+[35.645s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/bin'
+[35.645s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib/pkgconfig/mujoco_sim_ros2.pc'
+[35.650s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib/python3.10/site-packages'
+[35.650s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/bin'
+[35.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.ps1'
+[35.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.dsv'
+[35.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.sh'
+[35.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.bash'
+[35.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.zsh'
+[35.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/share/colcon-core/packages/mujoco_sim_ros2)
+[35.657s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control' with build type 'ament_cmake'
+[35.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control'
+[35.658s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.658s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control
+[41.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control
+[41.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control -- -j192 -l192
+[82.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control -- -j192 -l192
+[82.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control
+[83.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_ros2_control)
+[83.051s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control' for CMake module files
+[83.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control
+[83.054s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control' for CMake config files
+[83.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_ros2_control', 'cmake_prefix_path')
+[83.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.ps1'
+[83.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.dsv'
+[83.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.sh'
+[83.056s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib'
+[83.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_ros2_control', 'ld_library_path_lib')
+[83.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.ps1'
+[83.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.dsv'
+[83.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.sh'
+[83.062s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/bin'
+[83.062s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib/pkgconfig/mujoco_ros2_control.pc'
+[83.062s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib/python3.10/site-packages'
+[83.062s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/bin'
+[83.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.ps1'
+[83.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.dsv'
+[83.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.sh'
+[83.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.bash'
+[83.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.zsh'
+[83.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/colcon-core/packages/mujoco_ros2_control)
+[83.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_ros2_control)
+[83.070s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control' for CMake module files
+[83.071s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control' for CMake config files
+[83.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_ros2_control', 'cmake_prefix_path')
+[83.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.ps1'
+[83.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.dsv'
+[83.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.sh'
+[83.073s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib'
+[83.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_ros2_control', 'ld_library_path_lib')
+[83.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.ps1'
+[83.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.dsv'
+[83.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.sh'
+[83.078s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/bin'
+[83.079s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib/pkgconfig/mujoco_ros2_control.pc'
+[83.079s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib/python3.10/site-packages'
+[83.079s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/bin'
+[83.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.ps1'
+[83.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.dsv'
+[83.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.sh'
+[83.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.bash'
+[83.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.zsh'
+[83.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/colcon-core/packages/mujoco_ros2_control)
+[83.087s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge' with build type 'ament_cmake'
+[83.087s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge'
+[83.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[83.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[83.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge
+[86.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge
+[86.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge -- -j192 -l192
+[86.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge -- -j192 -l192
+[86.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge
+[86.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_bridge)
+[86.691s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge' for CMake module files
+[86.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_bridge
+[86.694s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge' for CMake config files
+[86.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_bridge', 'cmake_prefix_path')
+[86.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.ps1'
+[86.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.dsv'
+[86.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.sh'
+[86.697s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/bin'
+[86.697s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/lib/pkgconfig/mujoco_bridge.pc'
+[86.697s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/lib/python3.10/site-packages'
+[86.697s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/bin'
+[86.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.ps1'
+[86.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.dsv'
+[86.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.sh'
+[86.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.bash'
+[86.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.zsh'
+[86.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/colcon-core/packages/mujoco_bridge)
+[86.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_bridge)
+[86.709s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge' for CMake module files
+[86.710s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge' for CMake config files
+[86.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_bridge', 'cmake_prefix_path')
+[86.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.ps1'
+[86.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.dsv'
+[86.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.sh'
+[86.712s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/bin'
+[86.712s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/lib/pkgconfig/mujoco_bridge.pc'
+[86.712s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/lib/python3.10/site-packages'
+[86.712s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/bin'
+[86.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.ps1'
+[86.713s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.dsv'
+[86.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.sh'
+[86.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.bash'
+[86.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.zsh'
+[86.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_bridge/share/colcon-core/packages/mujoco_bridge)
+[86.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[86.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[86.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[86.720s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[86.734s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[86.734s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[86.734s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[86.771s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[86.771s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/local_setup.ps1'
+[86.773s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/_local_setup_util_ps1.py'
+[86.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/setup.ps1'
+[86.780s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/local_setup.sh'
+[86.780s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/_local_setup_util_sh.py'
+[86.781s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/setup.sh'
+[86.787s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/local_setup.bash'
+[86.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/setup.bash'
+[86.791s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/local_setup.zsh'
+[86.791s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/setup.zsh'

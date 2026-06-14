@@ -1,0 +1,1 @@
+/home/aiseon/tita/sim2sim2real/build/gazebo_bridge/ament_cmake_environment_hooks/local_setup.bash

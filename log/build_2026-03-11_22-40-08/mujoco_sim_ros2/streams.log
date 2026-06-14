@@ -1,0 +1,42 @@
+[0.035s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2
+[0.228s] -- The C compiler identification is GNU 11.4.0
+[0.422s] -- The CXX compiler identification is GNU 11.4.0
+[0.447s] -- Detecting C compiler ABI info
+[0.704s] -- Detecting C compiler ABI info - done
+[0.724s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.724s] -- Detecting C compile features
+[0.724s] -- Detecting C compile features - done
+[0.737s] -- Detecting CXX compiler ABI info
+[1.051s] -- Detecting CXX compiler ABI info - done
+[1.070s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.070s] -- Detecting CXX compile features
+[1.072s] -- Detecting CXX compile features - done
+[17.094s] [0m[ 11%] Creating directories for 'lodepng-populate'
+[17.094s] [ 22%] Performing download step (git clone) for 'lodepng-populate'
+[17.094s] 正克隆到 'lodepng-src'...
+[17.094s] fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[17.094s] 正克隆到 'lodepng-src'...
+[17.094s] fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[17.094s] 正克隆到 'lodepng-src'...
+[17.094s] fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[17.094s] -- Had to git clone more than once:
+[17.095s]           3 times.
+[17.095s] CMake Error at lodepng-subbuild/lodepng-populate-prefix/tmp/lodepng-populate-gitclone.cmake:31 (message):
+[17.095s]   Failed to clone repository: 'https://github.com/lvandeve/lodepng.git'
+[17.095s] 
+[17.095s] 
+[17.095s] gmake[2]: *** [CMakeFiles/lodepng-populate.dir/build.make:102：lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-download] 错误 1
+[17.095s] gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/lodepng-populate.dir/all] 错误 2
+[17.095s] gmake: *** [Makefile:91：all] 错误 2
+[17.095s] [0m
+[17.095s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FetchContent.cmake:1087 (message):
+[17.095s]   Build step for lodepng failed: 2
+[17.095s] Call Stack (most recent call first):
+[17.095s]   /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216:EVAL:2 (__FetchContent_directPopulate)
+[17.095s]   /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216 (cmake_language)
+[17.095s]   CMakeLists.txt:28 (FetchContent_Populate)
+[17.095s] 
+[17.095s] [0m
+[17.095s] -- Configuring incomplete, errors occurred!
+[17.096s] See also "/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2/CMakeFiles/CMakeOutput.log".
+[17.118s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2

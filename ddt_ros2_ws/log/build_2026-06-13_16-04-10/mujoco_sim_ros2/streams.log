@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2
+[0.106s] -- The C compiler identification is GNU 11.4.0
+[0.173s] -- The CXX compiler identification is GNU 11.4.0
+[0.185s] -- Detecting C compiler ABI info
+[0.257s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.268s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.383s] CMake Error: The current CMakeCache.txt directory /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2/_deps/lodepng-subbuild/CMakeCache.txt is different than the directory /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2/_deps/lodepng-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.383s] 
+[0.383s] CMake Error at /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1604 (message):
+[0.383s]   CMake step for lodepng failed: 1
+[0.383s] Call Stack (most recent call first):
+[0.383s]   /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1756:EVAL:2 (__FetchContent_directPopulate)
+[0.384s]   /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1756 (cmake_language)
+[0.384s]   CMakeLists.txt:28 (FetchContent_Populate)
+[0.384s] 
+[0.384s] 
+[0.384s] -- Configuring incomplete, errors occurred!
+[0.384s] See also "/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2/CMakeFiles/CMakeOutput.log".
+[0.731s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2

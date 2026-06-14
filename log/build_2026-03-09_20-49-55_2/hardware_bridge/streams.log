@@ -1,0 +1,85 @@
+[0.018s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/hardware_bridge': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/hardware/hardware_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/hardware_bridge
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.169s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.294s] -- Detecting C compile features
+[0.294s] -- Detecting C compile features - done
+[0.297s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.424s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.425s] -- Detecting CXX compile features
+[0.425s] -- Detecting CXX compile features - done
+[0.427s] -- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.594s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.657s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.796s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.801s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.809s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.821s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.029s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.032s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.057s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.170s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.173s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.195s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.198s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.210s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.223s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.232s] -- Looking for pthread.h
+[1.341s] -- Looking for pthread.h - found
+[1.341s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.458s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.460s] -- Found Threads: TRUE  
+[1.548s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.561s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/hardware_bridge` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.566s] -- Added test 'clang_format' to check C / C++ code style
+[1.566s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.567s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.567s] -- Configured cppcheck include dirs: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/hardware/hardware_bridge/include
+[1.567s] -- Configured cppcheck exclude dirs and/or files: 
+[1.568s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.568s] -- Configured cpplint exclude dirs and/or files: 
+[1.568s] -- Added test 'lint_cmake' to check CMake code style
+[1.569s] -- Added test 'xmllint' to check XML markup files
+[1.571s] -- Configuring done
+[1.582s] -- Generating done
+[1.586s] -- Build files have been written to: /home/aiseon/tita/sim2sim2real/build/hardware_bridge
+[1.598s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/hardware_bridge' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/hardware/hardware_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/hardware_bridge
+[1.600s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/hardware_bridge': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/hardware_bridge -- -j192 -l192
+[1.682s] [ 50%] [32mBuilding CXX object CMakeFiles/hardware_bridge.dir/src/hardware_bridge_node.cpp.o[0m
+[5.858s] [100%] [32m[1mLinking CXX shared library libhardware_bridge.so[0m
+[5.987s] [100%] Built target hardware_bridge
+[6.004s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/hardware_bridge' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/hardware_bridge -- -j192 -l192
+[6.007s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/hardware_bridge': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/hardware_bridge
+[6.017s] -- Install configuration: ""
+[6.017s] -- Execute custom install script
+[6.017s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge//hardware_bridge_plugin.xml
+[6.031s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/config/controllers.yaml
+[6.042s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/launch/hardware_bridge.launch.py
+[6.053s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/include/hardware_bridge/hardware_bridge_node.hpp
+[6.065s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/environment/library_path.sh
+[6.077s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/environment/library_path.dsv
+[6.089s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/lib/libhardware_bridge.so
+[6.102s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/ament_index/resource_index/package_run_dependencies/hardware_bridge
+[6.111s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/ament_index/resource_index/parent_prefix_path/hardware_bridge
+[6.122s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/environment/ament_prefix_path.sh
+[6.134s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/environment/ament_prefix_path.dsv
+[6.145s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/environment/path.sh
+[6.157s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/environment/path.dsv
+[6.168s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/local_setup.bash
+[6.179s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/local_setup.sh
+[6.190s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/local_setup.zsh
+[6.202s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/local_setup.dsv
+[6.214s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/package.dsv
+[6.226s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/ament_index/resource_index/packages/hardware_bridge
+[6.238s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_bridge
+[6.249s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.260s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.271s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[6.281s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/cmake/hardware_bridgeConfig.cmake
+[6.291s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/cmake/hardware_bridgeConfig-version.cmake
+[6.304s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/hardware_bridge/share/hardware_bridge/package.xml
+[6.320s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/hardware_bridge' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/hardware_bridge

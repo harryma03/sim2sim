@@ -1,0 +1,10 @@
+CMake Error: The current CMakeCache.txt directory /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2/_deps/lodepng-subbuild/CMakeCache.txt is different than the directory /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_sim_ros2/_deps/lodepng-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+
+CMake Error at /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1604 (message):
+  CMake step for lodepng failed: 1
+Call Stack (most recent call first):
+  /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1756:EVAL:2 (__FetchContent_directPopulate)
+  /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1756 (cmake_language)
+  CMakeLists.txt:28 (FetchContent_Populate)
+
+

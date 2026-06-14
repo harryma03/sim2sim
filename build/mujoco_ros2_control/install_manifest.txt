@@ -1,0 +1,2 @@
+/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control/lib/libmujoco_system_plugins.so
+/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control/lib/libmujoco_ros2_control-system.so

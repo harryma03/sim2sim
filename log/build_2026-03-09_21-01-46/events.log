@@ -1,0 +1,385 @@
+[0.000000] (-) TimerEvent: {}
+[0.000523] (-) JobUnselected: {'identifier': 'd1_description'}
+[0.000612] (-) JobUnselected: {'identifier': 'd1h_description'}
+[0.000666] (-) JobUnselected: {'identifier': 'hardware_bridge'}
+[0.000712] (-) JobUnselected: {'identifier': 'keyboard_controller'}
+[0.000767] (-) JobUnselected: {'identifier': 'mujoco'}
+[0.000820] (-) JobUnselected: {'identifier': 'mujoco_bridge'}
+[0.000861] (-) JobUnselected: {'identifier': 'mujoco_ros2_control'}
+[0.000901] (-) JobUnselected: {'identifier': 'mujoco_sim_ros2'}
+[0.000940] (-) JobUnselected: {'identifier': 'rl_controller'}
+[0.000981] (-) JobUnselected: {'identifier': 'ros_utils'}
+[0.001023] (-) JobUnselected: {'identifier': 'teleop_command'}
+[0.001062] (-) JobUnselected: {'identifier': 'tita_robot'}
+[0.001102] (-) JobUnselected: {'identifier': 'titatit_description'}
+[0.001142] (-) JobUnselected: {'identifier': 'webots_bridge'}
+[0.001203] (tita_description) JobQueued: {'identifier': 'tita_description', 'dependencies': OrderedDict()}
+[0.001257] (gazebo_bridge) JobQueued: {'identifier': 'gazebo_bridge', 'dependencies': OrderedDict([('tita_description', '/home/aiseon/tita/sim2sim2real/install/tita_description')])}
+[0.001315] (tita_description) JobStarted: {'identifier': 'tita_description'}
+[0.016072] (tita_description) JobProgress: {'identifier': 'tita_description', 'progress': 'cmake'}
+[0.016802] (tita_description) JobProgress: {'identifier': 'tita_description', 'progress': 'build'}
+[0.017574] (tita_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aiseon/tita/sim2sim2real/build/tita_description', '--', '-j192', '-l192'], 'cwd': '/home/aiseon/tita/sim2sim2real/build/tita_description', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/install/webots_bridge/lib:/home/aiseon/tita/sim2sim2real/install/hardware_bridge/lib:/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real/install/teleop_command/lib:/home/aiseon/tita/sim2sim2real/install/rl_controller/lib:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/mujoco/mujoco210/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco-3.3.0/bin:/home/aiseon/.mujoco/mujoco-3.3.0/lib:/home/aiseon/mujoco-3.3.0/lib'), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '5080'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a92ed99cd5280a8c35317fde69a2dad0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aiseon/mujoco-3.3.0/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/5080,unix/aiseon:/tmp/.ICE-unix/5080'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b862cc4_c079_4d18_ae8b_dd795644d4fe'), ('MUJOCO_PATH', '/home/aiseon/.mujoco/mujoco210'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/aiseon/.mujoco/mujoco-3.3.0'), ('DISPLAY', ':1'), ('MUJOCO_PY_MJKEY_PATH', '/home/aiseon/.mujoco/mjkey.txt'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('mujoco_DIR', '/usr/lib/cmake/mujoco'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install/tita_description:/home/aiseon/tita/sim2sim2real/install/webots_bridge:/home/aiseon/tita/sim2sim2real/install/hardware_bridge:/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/build/tita_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a92ed99cd5280a8c35317fde69a2dad0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install/tita_description:/home/aiseon/tita/sim2sim2real/install/webots_bridge:/home/aiseon/tita/sim2sim2real/install/hardware_bridge:/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils::/usr/lib/cmake/mujoco:/opt/ros/humble'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco')]), 'shell': False}
+[0.076046] (tita_description) CommandEnded: {'returncode': 0}
+[0.077387] (tita_description) JobProgress: {'identifier': 'tita_description', 'progress': 'install'}
+[0.088705] (tita_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aiseon/tita/sim2sim2real/build/tita_description'], 'cwd': '/home/aiseon/tita/sim2sim2real/build/tita_description', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/install/webots_bridge/lib:/home/aiseon/tita/sim2sim2real/install/hardware_bridge/lib:/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real/install/teleop_command/lib:/home/aiseon/tita/sim2sim2real/install/rl_controller/lib:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/mujoco/mujoco210/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco-3.3.0/bin:/home/aiseon/.mujoco/mujoco-3.3.0/lib:/home/aiseon/mujoco-3.3.0/lib'), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '5080'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a92ed99cd5280a8c35317fde69a2dad0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aiseon/mujoco-3.3.0/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/5080,unix/aiseon:/tmp/.ICE-unix/5080'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b862cc4_c079_4d18_ae8b_dd795644d4fe'), ('MUJOCO_PATH', '/home/aiseon/.mujoco/mujoco210'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/aiseon/.mujoco/mujoco-3.3.0'), ('DISPLAY', ':1'), ('MUJOCO_PY_MJKEY_PATH', '/home/aiseon/.mujoco/mjkey.txt'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('mujoco_DIR', '/usr/lib/cmake/mujoco'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install/tita_description:/home/aiseon/tita/sim2sim2real/install/webots_bridge:/home/aiseon/tita/sim2sim2real/install/hardware_bridge:/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/build/tita_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a92ed99cd5280a8c35317fde69a2dad0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install/tita_description:/home/aiseon/tita/sim2sim2real/install/webots_bridge:/home/aiseon/tita/sim2sim2real/install/hardware_bridge:/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils::/usr/lib/cmake/mujoco:/opt/ros/humble'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco')]), 'shell': False}
+[0.096808] (tita_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.097235] (tita_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.097592] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/base_link.STL\n'}
+[0.097720] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/left_leg_1.STL\n'}
+[0.097877] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/left_leg_2.STL\n'}
+[0.098067] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/left_leg_3.STL\n'}
+[0.098148] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/left_leg_4.STL\n'}
+[0.098226] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/right_leg_1.STL\n'}
+[0.098302] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/right_leg_2.STL\n'}
+[0.098378] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/right_leg_3.STL\n'}
+[0.098523] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/meshes/right_leg_4.STL\n'}
+[0.098591] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/mujoco/robot.xml\n'}
+[0.098689] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/mujoco/scene.xml\n'}
+[0.098768] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/urdf/robot.urdf\n'}
+[0.098856] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/xacro/materials.xacro\n'}
+[0.098976] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/xacro/robot.xacro\n'}
+[0.099059] (-) TimerEvent: {}
+[0.099235] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/xacro/ros2control.xacro\n'}
+[0.099326] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/ament_index/resource_index/package_run_dependencies/tita_description\n'}
+[0.099404] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/ament_index/resource_index/parent_prefix_path/tita_description\n'}
+[0.099501] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/environment/ament_prefix_path.sh\n'}
+[0.099565] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/environment/ament_prefix_path.dsv\n'}
+[0.099603] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/environment/path.sh\n'}
+[0.099668] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/environment/path.dsv\n'}
+[0.099708] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/local_setup.bash\n'}
+[0.099777] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/local_setup.sh\n'}
+[0.099841] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/local_setup.zsh\n'}
+[0.099903] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/local_setup.dsv\n'}
+[0.099942] (tita_description) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/package.dsv\n'}
+[0.110951] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/ament_index/resource_index/packages/tita_description\n'}
+[0.111140] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/cmake/tita_descriptionConfig.cmake\n'}
+[0.111262] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/cmake/tita_descriptionConfig-version.cmake\n'}
+[0.111439] (tita_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/tita_description/share/tita_description/package.xml\n'}
+[0.114176] (tita_description) CommandEnded: {'returncode': 0}
+[0.128724] (tita_description) JobEnded: {'identifier': 'tita_description', 'rc': 0}
+[0.129171] (gazebo_bridge) JobStarted: {'identifier': 'gazebo_bridge'}
+[0.144208] (gazebo_bridge) JobProgress: {'identifier': 'gazebo_bridge', 'progress': 'cmake'}
+[0.145554] (gazebo_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/gazebo_bridge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/gazebo_bridge'], 'cwd': '/home/aiseon/tita/sim2sim2real/build/gazebo_bridge', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/install/webots_bridge/lib:/home/aiseon/tita/sim2sim2real/install/hardware_bridge/lib:/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real/install/teleop_command/lib:/home/aiseon/tita/sim2sim2real/install/rl_controller/lib:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/mujoco/mujoco210/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco-3.3.0/bin:/home/aiseon/.mujoco/mujoco-3.3.0/lib:/home/aiseon/mujoco-3.3.0/lib'), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '5080'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a92ed99cd5280a8c35317fde69a2dad0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aiseon/mujoco-3.3.0/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/5080,unix/aiseon:/tmp/.ICE-unix/5080'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b862cc4_c079_4d18_ae8b_dd795644d4fe'), ('MUJOCO_PATH', '/home/aiseon/.mujoco/mujoco210'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/aiseon/.mujoco/mujoco-3.3.0'), ('DISPLAY', ':1'), ('MUJOCO_PY_MJKEY_PATH', '/home/aiseon/.mujoco/mjkey.txt'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('mujoco_DIR', '/usr/lib/cmake/mujoco'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install/tita_description:/home/aiseon/tita/sim2sim2real/install/webots_bridge:/home/aiseon/tita/sim2sim2real/install/hardware_bridge:/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/build/gazebo_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a92ed99cd5280a8c35317fde69a2dad0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install/tita_description:/home/aiseon/tita/sim2sim2real/install/webots_bridge:/home/aiseon/tita/sim2sim2real/install/hardware_bridge:/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco')]), 'shell': False}
+[0.199148] (-) TimerEvent: {}
+[0.235135] (gazebo_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299233] (-) TimerEvent: {}
+[0.309237] (gazebo_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.320929] (gazebo_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399316] (-) TimerEvent: {}
+[0.435828] (gazebo_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.443266] (gazebo_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.443519] (gazebo_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.443889] (gazebo_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.446574] (gazebo_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499408] (-) TimerEvent: {}
+[0.563095] (gazebo_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.569880] (gazebo_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.570154] (gazebo_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.570595] (gazebo_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.573045] (gazebo_bridge) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.599490] (-) TimerEvent: {}
+[0.699823] (-) TimerEvent: {}
+[0.735115] (gazebo_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.798725] (gazebo_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.799876] (-) TimerEvent: {}
+[0.900099] (-) TimerEvent: {}
+[0.904091] (gazebo_bridge) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.908394] (gazebo_bridge) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.933134] (gazebo_bridge) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.000205] (-) TimerEvent: {}
+[1.100562] (-) TimerEvent: {}
+[1.131015] (gazebo_bridge) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.200668] (-) TimerEvent: {}
+[1.227001] (gazebo_bridge) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.245234] (gazebo_bridge) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.300795] (-) TimerEvent: {}
+[1.401111] (-) TimerEvent: {}
+[1.491956] (gazebo_bridge) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.501210] (-) TimerEvent: {}
+[1.515027] (gazebo_bridge) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.521409] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.527900] (gazebo_bridge) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.529259] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.529612] (gazebo_bridge) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.538952] (gazebo_bridge) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.565720] (gazebo_bridge) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.601292] (-) TimerEvent: {}
+[1.646822] (gazebo_bridge) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.657104] (gazebo_bridge) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.666590] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.672588] (gazebo_bridge) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.672797] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.678345] (gazebo_bridge) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.678471] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.684217] (gazebo_bridge) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.684342] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.689943] (gazebo_bridge) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.690100] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.695883] (gazebo_bridge) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.696117] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.701378] (-) TimerEvent: {}
+[1.701781] (gazebo_bridge) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.801500] (-) TimerEvent: {}
+[1.822860] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.825510] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.825941] (gazebo_bridge) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.847923] (gazebo_bridge) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.859127] (gazebo_bridge) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.869638] (gazebo_bridge) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.895970] (gazebo_bridge) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.901576] (-) TimerEvent: {}
+[1.978471] (gazebo_bridge) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.987091] (gazebo_bridge) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.001652] (-) TimerEvent: {}
+[2.017482] (gazebo_bridge) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.087375] (gazebo_bridge) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.090393] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.090815] (gazebo_bridge) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.101777] (-) TimerEvent: {}
+[2.112411] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.118707] (gazebo_bridge) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.153889] (gazebo_bridge) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.201887] (-) TimerEvent: {}
+[2.227007] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.229666] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.230111] (gazebo_bridge) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.230420] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.231227] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.232599] (gazebo_bridge) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.249374] (gazebo_bridge) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.249832] (gazebo_bridge) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.252419] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.252867] (gazebo_bridge) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.253192] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.256303] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.256680] (gazebo_bridge) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.301963] (-) TimerEvent: {}
+[2.398412] (gazebo_bridge) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.402054] (-) TimerEvent: {}
+[2.410971] (gazebo_bridge) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.438361] (gazebo_bridge) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.502158] (-) TimerEvent: {}
+[2.509447] (gazebo_bridge) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.517537] (gazebo_bridge) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.541332] (gazebo_bridge) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.602246] (-) TimerEvent: {}
+[2.620905] (gazebo_bridge) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.621330] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.621685] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.622047] (gazebo_bridge) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.625605] (gazebo_bridge) StdoutLine: {'line': b'-- Gazebo version: 11.14\n'}
+[2.625928] (gazebo_bridge) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.651950] (gazebo_bridge) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.702333] (-) TimerEvent: {}
+[2.761137] (gazebo_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.766918] (gazebo_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.776079] (gazebo_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.788289] (gazebo_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.802420] (-) TimerEvent: {}
+[2.804797] (gazebo_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.902531] (-) TimerEvent: {}
+[3.001193] (gazebo_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.002615] (-) TimerEvent: {}
+[3.004380] (gazebo_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.030153] (gazebo_bridge) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.102728] (-) TimerEvent: {}
+[3.158480] (gazebo_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.161180] (gazebo_bridge) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.176620] (gazebo_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.179683] (gazebo_bridge) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.194714] (gazebo_bridge) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.202790] (-) TimerEvent: {}
+[3.209922] (gazebo_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.220002] (gazebo_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.302932] (-) TimerEvent: {}
+[3.335813] (gazebo_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.349953] (gazebo_bridge) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/gazebo_bridge` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[3.354523] (gazebo_bridge) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[3.355002] (gazebo_bridge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.356089] (gazebo_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.356359] (gazebo_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/gazebo_bridge/include\n'}
+[3.356417] (gazebo_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.357257] (gazebo_bridge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.357315] (gazebo_bridge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.357804] (gazebo_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.358284] (gazebo_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.360667] (gazebo_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.382455] (gazebo_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[3.387772] (gazebo_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/aiseon/tita/sim2sim2real/build/gazebo_bridge\n'}
+[3.403246] (gazebo_bridge) CommandEnded: {'returncode': 0}
+[3.403650] (-) TimerEvent: {}
+[3.404730] (gazebo_bridge) JobProgress: {'identifier': 'gazebo_bridge', 'progress': 'build'}
+[3.405844] (gazebo_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aiseon/tita/sim2sim2real/build/gazebo_bridge', '--', '-j192', '-l192'], 'cwd': '/home/aiseon/tita/sim2sim2real/build/gazebo_bridge', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/install/webots_bridge/lib:/home/aiseon/tita/sim2sim2real/install/hardware_bridge/lib:/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real/install/teleop_command/lib:/home/aiseon/tita/sim2sim2real/install/rl_controller/lib:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/mujoco/mujoco210/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco-3.3.0/bin:/home/aiseon/.mujoco/mujoco-3.3.0/lib:/home/aiseon/mujoco-3.3.0/lib'), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '5080'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a92ed99cd5280a8c35317fde69a2dad0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aiseon/mujoco-3.3.0/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/5080,unix/aiseon:/tmp/.ICE-unix/5080'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b862cc4_c079_4d18_ae8b_dd795644d4fe'), ('MUJOCO_PATH', '/home/aiseon/.mujoco/mujoco210'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/aiseon/.mujoco/mujoco-3.3.0'), ('DISPLAY', ':1'), ('MUJOCO_PY_MJKEY_PATH', '/home/aiseon/.mujoco/mjkey.txt'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('mujoco_DIR', '/usr/lib/cmake/mujoco'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install/tita_description:/home/aiseon/tita/sim2sim2real/install/webots_bridge:/home/aiseon/tita/sim2sim2real/install/hardware_bridge:/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/build/gazebo_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a92ed99cd5280a8c35317fde69a2dad0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install/tita_description:/home/aiseon/tita/sim2sim2real/install/webots_bridge:/home/aiseon/tita/sim2sim2real/install/hardware_bridge:/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco')]), 'shell': False}
+[3.490889] (gazebo_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_bridge.dir/src/gazebo_bridge.cpp.o\x1b[0m\n'}
+[3.503761] (-) TimerEvent: {}
+[3.603980] (-) TimerEvent: {}
+[3.704315] (-) TimerEvent: {}
+[3.804621] (-) TimerEvent: {}
+[3.904903] (-) TimerEvent: {}
+[4.005231] (-) TimerEvent: {}
+[4.105540] (-) TimerEvent: {}
+[4.205891] (-) TimerEvent: {}
+[4.306223] (-) TimerEvent: {}
+[4.406524] (-) TimerEvent: {}
+[4.506806] (-) TimerEvent: {}
+[4.607138] (-) TimerEvent: {}
+[4.707444] (-) TimerEvent: {}
+[4.807731] (-) TimerEvent: {}
+[4.908030] (-) TimerEvent: {}
+[5.008283] (-) TimerEvent: {}
+[5.108513] (-) TimerEvent: {}
+[5.208814] (-) TimerEvent: {}
+[5.309058] (-) TimerEvent: {}
+[5.409300] (-) TimerEvent: {}
+[5.509563] (-) TimerEvent: {}
+[5.609813] (-) TimerEvent: {}
+[5.710037] (-) TimerEvent: {}
+[5.810279] (-) TimerEvent: {}
+[5.910533] (-) TimerEvent: {}
+[6.010778] (-) TimerEvent: {}
+[6.111012] (-) TimerEvent: {}
+[6.211248] (-) TimerEvent: {}
+[6.311438] (-) TimerEvent: {}
+[6.411701] (-) TimerEvent: {}
+[6.512072] (-) TimerEvent: {}
+[6.612385] (-) TimerEvent: {}
+[6.712684] (-) TimerEvent: {}
+[6.812993] (-) TimerEvent: {}
+[6.913185] (-) TimerEvent: {}
+[7.013482] (-) TimerEvent: {}
+[7.113786] (-) TimerEvent: {}
+[7.214104] (-) TimerEvent: {}
+[7.314402] (-) TimerEvent: {}
+[7.414666] (-) TimerEvent: {}
+[7.514967] (-) TimerEvent: {}
+[7.615234] (-) TimerEvent: {}
+[7.715518] (-) TimerEvent: {}
+[7.815789] (-) TimerEvent: {}
+[7.916034] (-) TimerEvent: {}
+[8.016279] (-) TimerEvent: {}
+[8.116529] (-) TimerEvent: {}
+[8.216776] (-) TimerEvent: {}
+[8.317026] (-) TimerEvent: {}
+[8.417266] (-) TimerEvent: {}
+[8.517511] (-) TimerEvent: {}
+[8.617798] (-) TimerEvent: {}
+[8.718056] (-) TimerEvent: {}
+[8.818317] (-) TimerEvent: {}
+[8.918593] (-) TimerEvent: {}
+[9.018881] (-) TimerEvent: {}
+[9.119122] (-) TimerEvent: {}
+[9.219368] (-) TimerEvent: {}
+[9.319655] (-) TimerEvent: {}
+[9.419947] (-) TimerEvent: {}
+[9.520210] (-) TimerEvent: {}
+[9.620460] (-) TimerEvent: {}
+[9.720699] (-) TimerEvent: {}
+[9.820990] (-) TimerEvent: {}
+[9.921234] (-) TimerEvent: {}
+[10.021469] (-) TimerEvent: {}
+[10.121707] (-) TimerEvent: {}
+[10.222000] (-) TimerEvent: {}
+[10.322241] (-) TimerEvent: {}
+[10.422481] (-) TimerEvent: {}
+[10.522765] (-) TimerEvent: {}
+[10.623029] (-) TimerEvent: {}
+[10.723332] (-) TimerEvent: {}
+[10.823627] (-) TimerEvent: {}
+[10.923974] (-) TimerEvent: {}
+[11.024289] (-) TimerEvent: {}
+[11.124610] (-) TimerEvent: {}
+[11.224947] (-) TimerEvent: {}
+[11.325250] (-) TimerEvent: {}
+[11.425579] (-) TimerEvent: {}
+[11.525925] (-) TimerEvent: {}
+[11.626220] (-) TimerEvent: {}
+[11.726501] (-) TimerEvent: {}
+[11.826775] (-) TimerEvent: {}
+[11.927028] (-) TimerEvent: {}
+[12.027270] (-) TimerEvent: {}
+[12.127514] (-) TimerEvent: {}
+[12.227807] (-) TimerEvent: {}
+[12.328079] (-) TimerEvent: {}
+[12.428322] (-) TimerEvent: {}
+[12.528567] (-) TimerEvent: {}
+[12.628802] (-) TimerEvent: {}
+[12.729060] (-) TimerEvent: {}
+[12.829374] (-) TimerEvent: {}
+[12.929732] (-) TimerEvent: {}
+[13.030087] (-) TimerEvent: {}
+[13.130397] (-) TimerEvent: {}
+[13.230727] (-) TimerEvent: {}
+[13.331083] (-) TimerEvent: {}
+[13.431393] (-) TimerEvent: {}
+[13.531726] (-) TimerEvent: {}
+[13.632064] (-) TimerEvent: {}
+[13.732354] (-) TimerEvent: {}
+[13.832601] (-) TimerEvent: {}
+[13.932937] (-) TimerEvent: {}
+[14.033237] (-) TimerEvent: {}
+[14.133547] (-) TimerEvent: {}
+[14.233881] (-) TimerEvent: {}
+[14.334143] (-) TimerEvent: {}
+[14.434393] (-) TimerEvent: {}
+[14.534650] (-) TimerEvent: {}
+[14.634948] (-) TimerEvent: {}
+[14.735212] (-) TimerEvent: {}
+[14.835462] (-) TimerEvent: {}
+[14.935701] (-) TimerEvent: {}
+[15.035964] (-) TimerEvent: {}
+[15.136198] (-) TimerEvent: {}
+[15.236435] (-) TimerEvent: {}
+[15.336689] (-) TimerEvent: {}
+[15.436962] (-) TimerEvent: {}
+[15.537204] (-) TimerEvent: {}
+[15.637443] (-) TimerEvent: {}
+[15.737680] (-) TimerEvent: {}
+[15.837953] (-) TimerEvent: {}
+[15.938201] (-) TimerEvent: {}
+[16.038435] (-) TimerEvent: {}
+[16.138711] (-) TimerEvent: {}
+[16.239051] (-) TimerEvent: {}
+[16.308915] (gazebo_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_bridge.so\x1b[0m\n'}
+[16.339142] (-) TimerEvent: {}
+[16.439459] (-) TimerEvent: {}
+[16.539798] (-) TimerEvent: {}
+[16.629793] (gazebo_bridge) StdoutLine: {'line': b'[100%] Built target gazebo_bridge\n'}
+[16.639887] (-) TimerEvent: {}
+[16.647779] (gazebo_bridge) CommandEnded: {'returncode': 0}
+[16.649334] (gazebo_bridge) JobProgress: {'identifier': 'gazebo_bridge', 'progress': 'install'}
+[16.650275] (gazebo_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aiseon/tita/sim2sim2real/build/gazebo_bridge'], 'cwd': '/home/aiseon/tita/sim2sim2real/build/gazebo_bridge', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/install/webots_bridge/lib:/home/aiseon/tita/sim2sim2real/install/hardware_bridge/lib:/home/aiseon/tita/sim2sim2real/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real/install/teleop_command/lib:/home/aiseon/tita/sim2sim2real/install/rl_controller/lib:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/mujoco/mujoco210/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco-3.3.0/bin:/home/aiseon/.mujoco/mujoco-3.3.0/lib:/home/aiseon/mujoco-3.3.0/lib'), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/aiseon/tita/sim2sim2real'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '5080'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a92ed99cd5280a8c35317fde69a2dad0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aiseon/mujoco-3.3.0/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/5080,unix/aiseon:/tmp/.ICE-unix/5080'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b862cc4_c079_4d18_ae8b_dd795644d4fe'), ('MUJOCO_PATH', '/home/aiseon/.mujoco/mujoco210'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/aiseon/.mujoco/mujoco-3.3.0'), ('DISPLAY', ':1'), ('MUJOCO_PY_MJKEY_PATH', '/home/aiseon/.mujoco/mjkey.txt'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('mujoco_DIR', '/usr/lib/cmake/mujoco'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install/tita_description:/home/aiseon/tita/sim2sim2real/install/webots_bridge:/home/aiseon/tita/sim2sim2real/install/hardware_bridge:/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/build/gazebo_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a92ed99cd5280a8c35317fde69a2dad0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aiseon/tita/sim2sim2real/install/tita_description:/home/aiseon/tita/sim2sim2real/install/webots_bridge:/home/aiseon/tita/sim2sim2real/install/hardware_bridge:/home/aiseon/tita/sim2sim2real/install/tita_robot:/home/aiseon/tita/sim2sim2real/install/titatit_description:/home/aiseon/tita/sim2sim2real/install/teleop_command:/home/aiseon/tita/sim2sim2real/install/rl_controller:/home/aiseon/tita/sim2sim2real/install/keyboard_controller:/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco')]), 'shell': False}
+[16.662367] (gazebo_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.662862] (gazebo_bridge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.663074] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge//gazebo_bridge_plugin.xml\n'}
+[16.674636] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/config/controllers.yaml\n'}
+[16.683398] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/launch/gazebo_bridge.launch.py\n'}
+[16.694801] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/worlds/empty_world.world\n'}
+[16.703677] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/include/gazebo_bridge/gazebo_bridge.h\n'}
+[16.714886] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/environment/library_path.sh\n'}
+[16.724857] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/environment/library_path.dsv\n'}
+[16.735216] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/lib/libgazebo_bridge.so\n'}
+[16.739972] (-) TimerEvent: {}
+[16.747855] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/ament_index/resource_index/package_run_dependencies/gazebo_bridge\n'}
+[16.759306] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/ament_index/resource_index/parent_prefix_path/gazebo_bridge\n'}
+[16.769019] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/environment/ament_prefix_path.sh\n'}
+[16.781067] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/environment/ament_prefix_path.dsv\n'}
+[16.793120] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/environment/path.sh\n'}
+[16.803638] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/environment/path.dsv\n'}
+[16.815330] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/local_setup.bash\n'}
+[16.824092] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/local_setup.sh\n'}
+[16.834245] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/local_setup.zsh\n'}
+[16.840059] (-) TimerEvent: {}
+[16.845777] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/local_setup.dsv\n'}
+[16.857114] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/package.dsv\n'}
+[16.868108] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/ament_index/resource_index/packages/gazebo_bridge\n'}
+[16.876719] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_bridge\n'}
+[16.888617] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.898340] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.909702] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.918359] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/cmake/gazebo_bridgeConfig.cmake\n'}
+[16.926963] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/cmake/gazebo_bridgeConfig-version.cmake\n'}
+[16.936575] (gazebo_bridge) StdoutLine: {'line': b'-- Symlinking: /home/aiseon/tita/sim2sim2real/install/gazebo_bridge/share/gazebo_bridge/package.xml\n'}
+[16.940146] (-) TimerEvent: {}
+[16.951400] (gazebo_bridge) CommandEnded: {'returncode': 0}
+[16.964703] (gazebo_bridge) JobEnded: {'identifier': 'gazebo_bridge', 'rc': 0}
+[16.965549] (-) EventReactorShutdown: {}

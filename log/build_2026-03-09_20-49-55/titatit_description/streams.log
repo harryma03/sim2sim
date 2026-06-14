@@ -1,0 +1,25 @@
+[0.021s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/titatit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/titatit_description -- -j192 -l192
+[0.075s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/titatit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/titatit_description -- -j192 -l192
+[0.087s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/titatit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/titatit_description
+[0.093s] -- Install configuration: ""
+[0.094s] -- Execute custom install script
+[0.094s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/xacro/materials.xacro
+[0.094s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/xacro/robot.xacro
+[0.094s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/xacro/ros2control.xacro
+[0.094s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/xacro/single_robot.xacro
+[0.094s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/ament_index/resource_index/package_run_dependencies/titatit_description
+[0.095s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/ament_index/resource_index/parent_prefix_path/titatit_description
+[0.095s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/environment/ament_prefix_path.dsv
+[0.095s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/environment/path.sh
+[0.095s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/environment/path.dsv
+[0.095s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/local_setup.bash
+[0.095s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/local_setup.sh
+[0.095s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/local_setup.zsh
+[0.095s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/local_setup.dsv
+[0.095s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/package.dsv
+[0.106s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/ament_index/resource_index/packages/titatit_description
+[0.106s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/cmake/titatit_descriptionConfig.cmake
+[0.107s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/cmake/titatit_descriptionConfig-version.cmake
+[0.107s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/titatit_description/share/titatit_description/package.xml
+[0.110s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/titatit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/titatit_description

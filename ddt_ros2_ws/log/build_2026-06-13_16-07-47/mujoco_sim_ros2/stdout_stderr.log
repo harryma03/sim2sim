@@ -1,0 +1,39 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+[ 11%] Creating directories for 'lodepng-populate'
+[ 22%] Performing download step (git clone) for 'lodepng-populate'
+正克隆到 'lodepng-src'...
+fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：Could not resolve host: github.com
+正克隆到 'lodepng-src'...
+fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：Could not resolve host: github.com
+正克隆到 'lodepng-src'...
+fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：Could not resolve host: github.com
+-- Had to git clone more than once: 3 times.
+CMake Error at lodepng-subbuild/lodepng-populate-prefix/tmp/lodepng-populate-gitclone.cmake:39 (message):
+  Failed to clone repository: 'https://github.com/lvandeve/lodepng.git'
+
+
+gmake[2]: *** [CMakeFiles/lodepng-populate.dir/build.make:102：lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-download] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/lodepng-populate.dir/all] 错误 2
+gmake: *** [Makefile:91：all] 错误 2
+
+CMake Error at /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1616 (message):
+  Build step for lodepng failed: 2
+Call Stack (most recent call first):
+  /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1756:EVAL:2 (__FetchContent_directPopulate)
+  /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1756 (cmake_language)
+  CMakeLists.txt:28 (FetchContent_Populate)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2/CMakeFiles/CMakeOutput.log".

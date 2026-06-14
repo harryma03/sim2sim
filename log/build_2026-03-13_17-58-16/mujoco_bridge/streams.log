@@ -1,0 +1,25 @@
+[0.020s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/mujoco_bridge': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/mujoco_bridge -- -j192 -l192
+[0.093s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/mujoco_bridge' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/mujoco_bridge -- -j192 -l192
+[0.094s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/mujoco_bridge': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/mujoco_bridge
+[0.109s] -- Install configuration: ""
+[0.109s] -- Up-to-date: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/config
+[0.109s] -- Up-to-date: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/config/controllers.yaml
+[0.109s] -- Up-to-date: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/launch
+[0.109s] -- Up-to-date: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/launch/mujoco_bridge.launch.py
+[0.109s] -- Execute custom install script
+[0.110s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/ament_index/resource_index/package_run_dependencies/mujoco_bridge
+[0.110s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/ament_index/resource_index/parent_prefix_path/mujoco_bridge
+[0.110s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/environment/ament_prefix_path.sh
+[0.110s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/environment/ament_prefix_path.dsv
+[0.110s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/environment/path.sh
+[0.110s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/environment/path.dsv
+[0.111s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/local_setup.bash
+[0.111s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/local_setup.sh
+[0.111s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/local_setup.zsh
+[0.111s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/local_setup.dsv
+[0.111s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/package.dsv
+[0.126s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/ament_index/resource_index/packages/mujoco_bridge
+[0.126s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/cmake/mujoco_bridgeConfig.cmake
+[0.126s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/cmake/mujoco_bridgeConfig-version.cmake
+[0.126s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/install/mujoco_bridge/share/mujoco_bridge/package.xml
+[0.132s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/mujoco_bridge' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/mujoco_bridge

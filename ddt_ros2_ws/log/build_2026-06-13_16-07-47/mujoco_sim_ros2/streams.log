@@ -1,0 +1,41 @@
+[0.013s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.166s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.254s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.347s] -- Detecting CXX compile features - done
+[0.496s] [ 11%] Creating directories for 'lodepng-populate'
+[0.496s] [ 22%] Performing download step (git clone) for 'lodepng-populate'
+[0.497s] 正克隆到 'lodepng-src'...
+[0.497s] fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：Could not resolve host: github.com
+[0.497s] 正克隆到 'lodepng-src'...
+[0.497s] fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：Could not resolve host: github.com
+[0.497s] 正克隆到 'lodepng-src'...
+[0.497s] fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：Could not resolve host: github.com
+[0.497s] -- Had to git clone more than once: 3 times.
+[0.497s] CMake Error at lodepng-subbuild/lodepng-populate-prefix/tmp/lodepng-populate-gitclone.cmake:39 (message):
+[0.497s]   Failed to clone repository: 'https://github.com/lvandeve/lodepng.git'
+[0.498s] 
+[0.498s] 
+[0.498s] gmake[2]: *** [CMakeFiles/lodepng-populate.dir/build.make:102：lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-download] 错误 1
+[0.498s] gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/lodepng-populate.dir/all] 错误 2
+[0.498s] gmake: *** [Makefile:91：all] 错误 2
+[0.498s] 
+[0.498s] CMake Error at /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1616 (message):
+[0.498s]   Build step for lodepng failed: 2
+[0.498s] Call Stack (most recent call first):
+[0.498s]   /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1756:EVAL:2 (__FetchContent_directPopulate)
+[0.498s]   /home/aiseon/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/FetchContent.cmake:1756 (cmake_language)
+[0.498s]   CMakeLists.txt:28 (FetchContent_Populate)
+[0.498s] 
+[0.498s] 
+[0.498s] -- Configuring incomplete, errors occurred!
+[0.499s] See also "/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2/CMakeFiles/CMakeOutput.log".
+[0.509s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2

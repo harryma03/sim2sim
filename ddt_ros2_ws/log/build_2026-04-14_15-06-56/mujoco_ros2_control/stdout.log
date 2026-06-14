@@ -1,0 +1,9 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/mujoco_system_plugins.dir/src/mujoco_system.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control-system.dir/src/mujoco_ros2_control.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_rendering.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control-system.dir/src/mujoco_ros2_control_plugin.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_cameras.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libmujoco_system_plugins.so[0m
+[ 80%] Built target mujoco_system_plugins

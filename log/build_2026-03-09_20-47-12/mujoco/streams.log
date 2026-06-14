@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/mujoco': /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/mujoco -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.173s] -- The CXX compiler identification is GNU 11.4.0
+[0.185s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.301s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.302s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.430s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.431s] -- Setting build type to 'Release' as none was specified.
+[0.432s] -- Performing Test CAN_BUILD_AVX
+[0.679s] -- Performing Test CAN_BUILD_AVX - Success
+[0.680s] -- Performing Test SUPPORTS_LLD
+[0.766s] -- Performing Test SUPPORTS_LLD - Failed
+[0.766s] -- Performing Test SUPPORTS_GOLD
+[0.869s] -- Performing Test SUPPORTS_GOLD - Success
+[0.869s] -- Performing Test SUPPORTS_GC_SECTIONS
+[0.970s] -- Performing Test SUPPORTS_GC_SECTIONS - Success
+[1.805s] -- mujoco::FindOrFetch: checking for targets in package `qhull`
+[1.805s] -- mujoco::FindOrFetch: checking for targets in package `qhull` - target `qhull` not defined.
+[1.805s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `qhull`
+[83.174s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/mujoco' returned '-2': /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/mujoco -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco

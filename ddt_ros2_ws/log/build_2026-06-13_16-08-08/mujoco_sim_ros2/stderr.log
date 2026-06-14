@@ -1,0 +1,548 @@
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/platform_ui_adapter.cc: In member function ‘virtual void mujoco::PlatformUIAdapter::OnKey(int, int, int)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/platform_ui_adapter.cc:57:44: warning: unused parameter ‘scancode’ [-Wunused-parameter]
+   57 | void PlatformUIAdapter::OnKey(int key, int scancode, int act) {
+      |                                        ~~~~^~~~~~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/platform_ui_adapter.cc: In member function ‘void mujoco::PlatformUIAdapter::OnMouseMove(double, double)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/platform_ui_adapter.cc:140:44: warning: unused parameter ‘x’ [-Wunused-parameter]
+  140 | void PlatformUIAdapter::OnMouseMove(double x, double y) {
+      |                                     ~~~~~~~^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/platform_ui_adapter.cc:140:54: warning: unused parameter ‘y’ [-Wunused-parameter]
+  140 | void PlatformUIAdapter::OnMouseMove(double x, double y) {
+      |                                               ~~~~~~~^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/platform_ui_adapter.cc: In member function ‘void mujoco::PlatformUIAdapter::OnWindowResize(int, int)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/platform_ui_adapter.cc:184:44: warning: unused parameter ‘width’ [-Wunused-parameter]
+  184 | void PlatformUIAdapter::OnWindowResize(int width, int height) {
+      |                                        ~~~~^~~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/platform_ui_adapter.cc:184:55: warning: unused parameter ‘height’ [-Wunused-parameter]
+  184 | void PlatformUIAdapter::OnWindowResize(int width, int height) {
+      |                                                   ~~~~^~~~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/glfw_adapter.cc: In lambda function:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/glfw_adapter.cc:78:76: warning: unused parameter ‘mods’ [-Wunused-parameter]
+   78 |       window_, +[](GLFWwindow* window, int key, int scancode, int act, int mods) {
+      |                                                                        ~~~~^~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/glfw_adapter.cc: In lambda function:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/glfw_adapter.cc:82:65: warning: unused parameter ‘mods’ [-Wunused-parameter]
+   82 |       window_, +[](GLFWwindow* window, int button, int act, int mods) {
+      |                                                             ~~~~^~~~
+In file included from /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:15:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  286 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  305 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  315 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  128 | };
+      | ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:128:1: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In function ‘void {anonymous}::MakePhysicsSection(mujoco::Simulate*)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  711 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:711:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:715:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+  715 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:715:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:715:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:715:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:715:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:715:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:715:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:715:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+  723 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:723:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+  733 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:733:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:742:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  742 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:742:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:742:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:742:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:742:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:742:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In function ‘void {anonymous}::MakeRenderingSection(mujoco::Simulate*, const mjModel*)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  792 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:792:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:796:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+  796 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:796:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:796:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:796:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:796:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:796:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:796:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:796:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:824:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  824 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:824:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:824:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:824:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:824:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:824:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:844:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  844 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:844:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:844:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:844:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:844:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:844:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:844:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In function ‘void {anonymous}::MakeVisualizationSection(mujoco::Simulate*, const mjModel*)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  945 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:945:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:865:65: warning: unused parameter ‘m’ [-Wunused-parameter]
+  865 | void MakeVisualizationSection(mj::Simulate* sim, const mjModel* m) {
+      |                                                  ~~~~~~~~~~~~~~~^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In function ‘void {anonymous}::MakeGroupSection(mujoco::Simulate*)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+ 1005 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1005:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In function ‘void {anonymous}::MakeJointSection(mujoco::Simulate*)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1016:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+ 1016 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1016:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1016:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1016:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1016:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1016:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1020:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+ 1020 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1020:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1020:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1020:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1020:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1020:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1028:19: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+ 1028 |   for (int i=0; i < sim->jnt_type_.size() && itemcnt<mjMAXUIITEM; i++) {
+      |                 ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In function ‘void {anonymous}::MakeControlSection(mujoco::Simulate*)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1070:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+ 1070 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1070:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1070:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1070:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1070:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1070:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1070:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1070:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1070:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1074:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+ 1074 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1074:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1074:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1074:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1074:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1074:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1081:19: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::optional<std::pair<double, double> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+ 1081 |   for (int i=0; i < sim->actuator_ctrlrange_.size() && itemcnt<mjMAXUIITEM; i++) {
+      |                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In function ‘void {anonymous}::MakeUiSections(mujoco::Simulate*, const mjModel*, const mjData*)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1121:72: warning: unused parameter ‘d’ [-Wunused-parameter]
+ 1121 | void MakeUiSections(mj::Simulate* sim, const mjModel* m, const mjData* d) {
+      |                                                          ~~~~~~~~~~~~~~^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In member function ‘void mujoco::Simulate::Render()’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:2574:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+ 2574 |     for (int r = 0; r < h/2; ++r) {
+      |                     ~~^~~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In instantiation of ‘bool {anonymous}::IsDifferent(const T&, const T&) [with T = double [3]]’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1894:5:   required from here
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:63:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+   63 |     for (int i = 0; i < std::extent_v<T>; ++i) {
+      |                     ~~^~~~~~~~~~~~~~~~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In instantiation of ‘bool {anonymous}::IsDifferent(const T&, const T&) [with T = double [2]]’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1900:5:   required from here
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:63:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In instantiation of ‘bool {anonymous}::IsDifferent(const T&, const T&) [with T = double [5]]’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:1901:5:   required from here
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:63:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In instantiation of ‘bool {anonymous}::IsDifferent(const T&, const T&) [with T = unsigned char [32]]’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:2432:21:   required from here
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:63:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc: In instantiation of ‘bool {anonymous}::IsDifferent(const T&, const T&) [with T = unsigned char [6]]’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:2437:21:   required from here
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.cc:63:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+In file included from /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/main.cc:35:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  286 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:286:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  305 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:305:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+  315 |   };
+      |   ^
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::name’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::state’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::pdata’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::other’ [-Wmissing-field-initializers]
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/simulate.h:315:3: warning: missing initializer for member ‘mjuiDef_::otherint’ [-Wmissing-field-initializers]
+In file included from /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/main.cc:37:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/include/mujoco_sim_ros2/mujoco_physics_plugin.hpp: In member function ‘virtual void mujoco_sim_ros2::MujocoPhysicsPlugin::PreUpdate(mjModel*, mjData*)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/include/mujoco_sim_ros2/mujoco_physics_plugin.hpp:25:35: warning: unused parameter ‘model’ [-Wunused-parameter]
+   25 |   virtual void PreUpdate(mjModel *model, mjData *data) {};
+      |                          ~~~~~~~~~^~~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/include/mujoco_sim_ros2/mujoco_physics_plugin.hpp:25:50: warning: unused parameter ‘data’ [-Wunused-parameter]
+   25 |   virtual void PreUpdate(mjModel *model, mjData *data) {};
+      |                                          ~~~~~~~~^~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/include/mujoco_sim_ros2/mujoco_physics_plugin.hpp: In member function ‘virtual void mujoco_sim_ros2::MujocoPhysicsPlugin::Update(mjModel*, mjData*)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/include/mujoco_sim_ros2/mujoco_physics_plugin.hpp:26:32: warning: unused parameter ‘model’ [-Wunused-parameter]
+   26 |   virtual void Update(mjModel *model, mjData *data) {};
+      |                       ~~~~~~~~~^~~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/include/mujoco_sim_ros2/mujoco_physics_plugin.hpp:26:47: warning: unused parameter ‘data’ [-Wunused-parameter]
+   26 |   virtual void Update(mjModel *model, mjData *data) {};
+      |                                       ~~~~~~~~^~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/include/mujoco_sim_ros2/mujoco_physics_plugin.hpp: In member function ‘virtual void mujoco_sim_ros2::MujocoPhysicsPlugin::PostUpdate(mjModel*, mjData*)’:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/include/mujoco_sim_ros2/mujoco_physics_plugin.hpp:27:36: warning: unused parameter ‘model’ [-Wunused-parameter]
+   27 |   virtual void PostUpdate(mjModel *model, mjData *data) {};
+      |                           ~~~~~~~~~^~~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/include/mujoco_sim_ros2/mujoco_physics_plugin.hpp:27:51: warning: unused parameter ‘data’ [-Wunused-parameter]
+   27 |   virtual void PostUpdate(mjModel *model, mjData *data) {};
+      |                                           ~~~~~~~~^~~~
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/main.cc: In lambda function:
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2/src/main.cc:137:26: warning: comparison of integer expressions of different signedness: ‘std::size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  137 |       } else if (written == -1) {
+      |                  ~~~~~~~~^~~~~

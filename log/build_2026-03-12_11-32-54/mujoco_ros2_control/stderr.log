@@ -1,0 +1,8 @@
+[33mCMake Warning (dev) at /home/aiseon/tita/sim2sim2real/mujoco/lib/cmake/mujoco/mujocoConfig.cmake:6 (add_library):
+  ADD_LIBRARY called with SHARED option but the target platform does not
+  support dynamic linking.  Building a STATIC library instead.  This may lead
+  to problems.
+Call Stack (most recent call first):
+  CMakeLists.txt:7 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

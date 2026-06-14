@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-656eda21da9b7792f462.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mujoco_ros2_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros2_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros2_control-903f7e91dde07c0f90af.json",
+					"name" : "mujoco_ros2_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros2_control-system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros2_control-system-0c547b83258fb6f5ecb0.json",
+					"name" : "mujoco_ros2_control-system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_ros2_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_ros2_control_uninstall-e1e81252144aa2a05860.json",
+					"name" : "mujoco_ros2_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_system_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_system_plugins-ed139c16a223f78fdae7.json",
+					"name" : "mujoco_system_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4c61e110867b30e0873e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aiseon/tita/sim2sim2real/build/mujoco_ros2_control",
+		"source" : "/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

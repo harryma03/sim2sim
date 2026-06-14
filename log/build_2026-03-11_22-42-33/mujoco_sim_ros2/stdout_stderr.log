@@ -1,0 +1,27 @@
+[0m[ 11%] Performing download step (git clone) for 'lodepng-populate'
+正克隆到 'lodepng-src'...
+fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：Failed to connect to 127.0.0.1 port 7890 after 0 ms: 连接被拒绝
+正克隆到 'lodepng-src'...
+fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：Failed to connect to 127.0.0.1 port 7890 after 0 ms: 连接被拒绝
+正克隆到 'lodepng-src'...
+fatal: 无法访问 'https://github.com/lvandeve/lodepng.git/'：Failed to connect to 127.0.0.1 port 7890 after 0 ms: 连接被拒绝
+-- Had to git clone more than once:
+          3 times.
+CMake Error at lodepng-subbuild/lodepng-populate-prefix/tmp/lodepng-populate-gitclone.cmake:31 (message):
+  Failed to clone repository: 'https://github.com/lvandeve/lodepng.git'
+
+
+gmake[2]: *** [CMakeFiles/lodepng-populate.dir/build.make:102：lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-download] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/lodepng-populate.dir/all] 错误 2
+gmake: *** [Makefile:91：all] 错误 2
+[0m
+[31mCMake Error at /usr/share/cmake-3.22/Modules/FetchContent.cmake:1087 (message):
+  Build step for lodepng failed: 2
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216:EVAL:2 (__FetchContent_directPopulate)
+  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216 (cmake_language)
+  CMakeLists.txt:28 (FetchContent_Populate)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,88 @@
+[0.018s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/webots_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/webots_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/webots_bridge
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.291s] -- Detecting C compiler ABI info - done
+[0.299s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.299s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.302s] -- Detecting CXX compiler ABI info
+[0.420s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.429s] -- Detecting CXX compile features
+[0.429s] -- Detecting CXX compile features - done
+[0.432s] -- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.593s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.649s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.782s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.788s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.797s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.876s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.879s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.024s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.056s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.109s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.118s] -- Looking for pthread.h
+[1.234s] -- Looking for pthread.h - found
+[1.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.348s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.350s] -- Found Threads: TRUE  
+[1.488s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.489s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.490s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.710s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.734s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/webots_bridge` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.739s] -- Added test 'clang_format' to check C / C++ code style
+[1.739s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.740s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.740s] -- Configured cppcheck include dirs: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/webots_bridge/include
+[1.740s] -- Configured cppcheck exclude dirs and/or files: 
+[1.741s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.741s] -- Configured cpplint exclude dirs and/or files: 
+[1.742s] -- Added test 'lint_cmake' to check CMake code style
+[1.742s] -- Added test 'xmllint' to check XML markup files
+[1.744s] -- Configuring done
+[1.768s] -- Generating done
+[1.773s] -- Build files have been written to: /home/aiseon/tita/sim2sim2real/build/webots_bridge
+[1.785s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/webots_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/webots_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/webots_bridge
+[1.788s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/webots_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/webots_bridge -- -j192 -l192
+[1.868s] [ 50%] [32mBuilding CXX object CMakeFiles/webots_bridge.dir/src/webots_bridge_node.cpp.o[0m
+[6.557s] [100%] [32m[1mLinking CXX shared library libwebots_bridge.so[0m
+[6.706s] [100%] Built target webots_bridge
+[6.725s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/webots_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/webots_bridge -- -j192 -l192
+[6.737s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/webots_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/webots_bridge
+[6.747s] -- Install configuration: ""
+[6.748s] -- Execute custom install script
+[6.748s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge//webots_bridge_plugin.xml
+[6.760s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/config/controllers.yaml
+[6.771s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/launch/webots_bridge.launch.py
+[6.781s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/worlds/empty_world.wbt
+[6.792s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/worlds/stairs.wbt
+[6.804s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/worlds/terrain.wbt
+[6.815s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/worlds/uneven.wbt
+[6.825s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/include/webots_bridge/webots_bridge_node.hpp
+[6.835s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/environment/library_path.sh
+[6.848s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/environment/library_path.dsv
+[6.858s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/lib/libwebots_bridge.so
+[6.869s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/ament_index/resource_index/package_run_dependencies/webots_bridge
+[6.879s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/ament_index/resource_index/parent_prefix_path/webots_bridge
+[6.891s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/environment/ament_prefix_path.sh
+[6.902s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/environment/ament_prefix_path.dsv
+[6.914s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/environment/path.sh
+[6.925s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/environment/path.dsv
+[6.937s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/local_setup.bash
+[6.950s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/local_setup.sh
+[6.960s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/local_setup.zsh
+[6.970s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/local_setup.dsv
+[6.980s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/package.dsv
+[6.992s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/ament_index/resource_index/packages/webots_bridge
+[7.005s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/ament_index/resource_index/webots_ros2_control__pluginlib__plugin/webots_bridge
+[7.013s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.024s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.037s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[7.048s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/cmake/webots_bridgeConfig.cmake
+[7.059s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/cmake/webots_bridgeConfig-version.cmake
+[7.070s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/webots_bridge/share/webots_bridge/package.xml
+[7.082s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/webots_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/webots_bridge

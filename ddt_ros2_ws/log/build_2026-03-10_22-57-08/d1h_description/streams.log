@@ -1,0 +1,59 @@
+[0.040s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/urdfs/d1h_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description
+[0.230s] -- The C compiler identification is GNU 11.4.0
+[0.432s] -- The CXX compiler identification is GNU 11.4.0
+[0.449s] -- Detecting C compiler ABI info
+[0.722s] -- Detecting C compiler ABI info - done
+[0.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.741s] -- Detecting C compile features
+[0.742s] -- Detecting C compile features - done
+[0.748s] -- Detecting CXX compiler ABI info
+[1.046s] -- Detecting CXX compiler ABI info - done
+[1.069s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.069s] -- Detecting CXX compile features
+[1.070s] -- Detecting CXX compile features - done
+[1.083s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.341s] -- Found Python3: /home/aiseon/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[2.551s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.910s] -- Configuring done
+[2.912s] -- Generating done
+[2.914s] -- Build files have been written to: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description
+[2.935s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/urdfs/d1h_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description
+[2.936s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description -- -j192 -l192
+[3.099s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description -- -j192 -l192
+[3.106s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description
+[3.126s] -- Install configuration: ""
+[3.132s] -- Execute custom install script
+[3.133s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/L_calf.STL
+[3.162s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/L_foot.STL
+[3.194s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/L_hip.STL
+[3.224s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/L_thigh.STL
+[3.257s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/R_calf.STL
+[3.282s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/R_foot.STL
+[3.315s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/R_hip.STL
+[3.343s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/R_thigh.STL
+[3.375s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/base_link.STL
+[3.403s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/docking_Link.STL
+[3.432s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/meshes/funtion_Link.STL
+[3.460s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/mujoco/robot.xml
+[3.491s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/mujoco/scene.xml
+[3.522s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/urdf/robot.urdf
+[3.551s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/xacro/materials.xacro
+[3.580s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/xacro/robot.xacro
+[3.606s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/xacro/ros2control.xacro
+[3.638s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/xacro/single_robot.xacro
+[3.666s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/ament_index/resource_index/package_run_dependencies/d1h_description
+[3.698s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/ament_index/resource_index/parent_prefix_path/d1h_description
+[3.726s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/environment/ament_prefix_path.sh
+[3.756s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/environment/ament_prefix_path.dsv
+[3.785s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/environment/path.sh
+[3.814s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/environment/path.dsv
+[3.847s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/local_setup.bash
+[3.878s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/local_setup.sh
+[3.908s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/local_setup.zsh
+[3.935s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/local_setup.dsv
+[3.962s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/package.dsv
+[3.989s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/ament_index/resource_index/packages/d1h_description
+[4.017s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/cmake/d1h_descriptionConfig.cmake
+[4.049s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/cmake/d1h_descriptionConfig-version.cmake
+[4.080s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/d1h_description/share/d1h_description/package.xml
+[4.111s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/d1h_description

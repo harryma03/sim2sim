@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.000332] (-) JobUnselected: {'identifier': 'd1_description'}
+[0.000373] (-) JobUnselected: {'identifier': 'd1h_description'}
+[0.000394] (-) JobUnselected: {'identifier': 'gazebo_bridge'}
+[0.000411] (-) JobUnselected: {'identifier': 'hardware_bridge'}
+[0.000428] (-) JobUnselected: {'identifier': 'keyboard_controller'}
+[0.000446] (-) JobUnselected: {'identifier': 'rl_controller'}
+[0.000462] (-) JobUnselected: {'identifier': 'ros_utils'}
+[0.000478] (-) JobUnselected: {'identifier': 'teleop_command'}
+[0.000494] (-) JobUnselected: {'identifier': 'tita_description'}
+[0.000510] (-) JobUnselected: {'identifier': 'tita_robot'}
+[0.000526] (-) JobUnselected: {'identifier': 'titatit_description'}
+[0.000543] (-) JobUnselected: {'identifier': 'webots_bridge'}
+[0.000565] (mujoco_sim_ros2) JobQueued: {'identifier': 'mujoco_sim_ros2', 'dependencies': OrderedDict()}
+[0.000590] (mujoco_ros2_control) JobQueued: {'identifier': 'mujoco_ros2_control', 'dependencies': OrderedDict([('mujoco_sim_ros2', '/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2')])}
+[0.000617] (mujoco_bridge) JobQueued: {'identifier': 'mujoco_bridge', 'dependencies': OrderedDict([('mujoco_sim_ros2', '/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2'), ('mujoco_ros2_control', '/home/aiseon/tita/sim2sim2real/install/mujoco_ros2_control')])}
+[0.002213] (mujoco_sim_ros2) JobStarted: {'identifier': 'mujoco_sim_ros2'}
+[0.029177] (mujoco_sim_ros2) JobProgress: {'identifier': 'mujoco_sim_ros2', 'progress': 'cmake'}
+[0.031277] (mujoco_sim_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2'], 'cwd': '/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/aiseon/Downloads/isaac-sim-4.5.0/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en_CA:en'), ('USER', 'aiseon'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/aiseon/Downloads/isaac-sim-4.5.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('CONDA_BACKUP_QT_XCB_GL_INTEGRATION', ''), ('HOME', '/home/aiseon'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4442'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aiseon'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/aiseon/tita/sim2sim2real/mujoco/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aiseon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aiseon/tita/sim2sim2real/mujoco/bin:/opt/ros/humble/bin:/usr/local/tensorrt/bin:/usr/local/cuda-12.2/bin:/home/aiseon/anaconda3/bin:/home/aiseon/anaconda3/condabin:/usr/local/cuda-12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aiseon:@/tmp/.ICE-unix/4442,unix/aiseon:/tmp/.ICE-unix/4442'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8e59fcf_3c35_495d_80cb_c72c16202b9b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('MUJOCO_GL', 'osmesa'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('QT_XCB_GL_INTEGRATION', 'none'), ('GNOME_TERMINAL_SERVICE', ':1.205'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/aiseon/anaconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/aiseon/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/aiseon/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d0e8a2a6b781ab815979ef369afd1c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/aiseon/anaconda3'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('CPATH', '/home/aiseon/tita/sim2sim2real/mujoco/include:'), ('COLCON', '1'), ('Python3_EXECUTABLE', '/usr/bin/python3'), ('VTE_VERSION', '6800'), ('MUJOCO_KEY_PATH', '/home/aiseon/.mujoco/mujoco210/bin/mjkey.txt'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099874] (-) TimerEvent: {}
+[0.202075] (-) TimerEvent: {}
+[0.232064] (mujoco_sim_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.302210] (-) TimerEvent: {}
+[0.402672] (-) TimerEvent: {}
+[0.425883] (mujoco_sim_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.450539] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.502793] (-) TimerEvent: {}
+[0.605575] (-) TimerEvent: {}
+[0.706117] (-) TimerEvent: {}
+[0.707934] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.727856] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.728081] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.728218] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.740853] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.806201] (-) TimerEvent: {}
+[0.907718] (-) TimerEvent: {}
+[1.008247] (-) TimerEvent: {}
+[1.054898] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.073725] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.074083] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.076233] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.108323] (-) TimerEvent: {}
+[1.208705] (-) TimerEvent: {}
+[1.309172] (-) TimerEvent: {}
+[1.409643] (-) TimerEvent: {}
+[1.510918] (-) TimerEvent: {}
+[1.613921] (-) TimerEvent: {}
+[1.714420] (-) TimerEvent: {}
+[1.814922] (-) TimerEvent: {}
+[1.915409] (-) TimerEvent: {}
+[2.015947] (-) TimerEvent: {}
+[2.116451] (-) TimerEvent: {}
+[2.218993] (-) TimerEvent: {}
+[2.319533] (-) TimerEvent: {}
+[2.420103] (-) TimerEvent: {}
+[2.520614] (-) TimerEvent: {}
+[2.622456] (-) TimerEvent: {}
+[2.723046] (-) TimerEvent: {}
+[2.825920] (-) TimerEvent: {}
+[2.926449] (-) TimerEvent: {}
+[3.027039] (-) TimerEvent: {}
+[3.127541] (-) TimerEvent: {}
+[3.228090] (-) TimerEvent: {}
+[3.330923] (-) TimerEvent: {}
+[3.431436] (-) TimerEvent: {}
+[3.531931] (-) TimerEvent: {}
+[3.632460] (-) TimerEvent: {}
+[3.733066] (-) TimerEvent: {}
+[3.834008] (-) TimerEvent: {}
+[3.934911] (-) TimerEvent: {}
+[4.035927] (-) TimerEvent: {}
+[4.136923] (-) TimerEvent: {}
+[4.241392] (-) TimerEvent: {}
+[4.341955] (-) TimerEvent: {}
+[4.442474] (-) TimerEvent: {}
+[4.542925] (-) TimerEvent: {}
+[4.643425] (-) TimerEvent: {}
+[4.743939] (-) TimerEvent: {}
+[4.844484] (-) TimerEvent: {}
+[4.945037] (-) TimerEvent: {}
+[5.046683] (-) TimerEvent: {}
+[5.147240] (-) TimerEvent: {}
+[5.247734] (-) TimerEvent: {}
+[5.352275] (-) TimerEvent: {}
+[5.452778] (-) TimerEvent: {}
+[5.553344] (-) TimerEvent: {}
+[5.653937] (-) TimerEvent: {}
+[5.754463] (-) TimerEvent: {}
+[5.854976] (-) TimerEvent: {}
+[5.955489] (-) TimerEvent: {}
+[6.056040] (-) TimerEvent: {}
+[6.158054] (-) TimerEvent: {}
+[6.258564] (-) TimerEvent: {}
+[6.359118] (-) TimerEvent: {}
+[6.462057] (-) TimerEvent: {}
+[6.562573] (-) TimerEvent: {}
+[6.663131] (-) TimerEvent: {}
+[6.763641] (-) TimerEvent: {}
+[6.864191] (-) TimerEvent: {}
+[6.968802] (-) TimerEvent: {}
+[7.069351] (-) TimerEvent: {}
+[7.169905] (-) TimerEvent: {}
+[7.270413] (-) TimerEvent: {}
+[7.370924] (-) TimerEvent: {}
+[7.471437] (-) TimerEvent: {}
+[7.571918] (-) TimerEvent: {}
+[7.672433] (-) TimerEvent: {}
+[7.772922] (-) TimerEvent: {}
+[7.874700] (-) TimerEvent: {}
+[7.975281] (-) TimerEvent: {}
+[8.076915] (-) TimerEvent: {}
+[8.177436] (-) TimerEvent: {}
+[8.277942] (-) TimerEvent: {}
+[8.381086] (-) TimerEvent: {}
+[8.481620] (-) TimerEvent: {}
+[8.582209] (-) TimerEvent: {}
+[8.682726] (-) TimerEvent: {}
+[8.783281] (-) TimerEvent: {}
+[8.885908] (-) TimerEvent: {}
+[8.986408] (-) TimerEvent: {}
+[9.086918] (-) TimerEvent: {}
+[9.187426] (-) TimerEvent: {}
+[9.287923] (-) TimerEvent: {}
+[9.390061] (-) TimerEvent: {}
+[9.490556] (-) TimerEvent: {}
+[9.591084] (-) TimerEvent: {}
+[9.691915] (-) TimerEvent: {}
+[9.794754] (-) TimerEvent: {}
+[9.895306] (-) TimerEvent: {}
+[9.995803] (-) TimerEvent: {}
+[10.096329] (-) TimerEvent: {}
+[10.196855] (-) TimerEvent: {}
+[10.299087] (-) TimerEvent: {}
+[10.399576] (-) TimerEvent: {}
+[10.500119] (-) TimerEvent: {}
+[10.600616] (-) TimerEvent: {}
+[10.705311] (-) TimerEvent: {}
+[10.805878] (-) TimerEvent: {}
+[10.906383] (-) TimerEvent: {}
+[11.006933] (-) TimerEvent: {}
+[11.107414] (-) TimerEvent: {}
+[11.207940] (-) TimerEvent: {}
+[11.308425] (-) TimerEvent: {}
+[11.408921] (-) TimerEvent: {}
+[11.509416] (-) TimerEvent: {}
+[11.610913] (-) TimerEvent: {}
+[11.711421] (-) TimerEvent: {}
+[11.812459] (-) TimerEvent: {}
+[11.913499] (-) TimerEvent: {}
+[12.015533] (-) TimerEvent: {}
+[12.116077] (-) TimerEvent: {}
+[12.216579] (-) TimerEvent: {}
+[12.317670] (-) TimerEvent: {}
+[12.421061] (-) TimerEvent: {}
+[12.521552] (-) TimerEvent: {}
+[12.622098] (-) TimerEvent: {}
+[12.722592] (-) TimerEvent: {}
+[12.823154] (-) TimerEvent: {}
+[12.923647] (-) TimerEvent: {}
+[13.025147] (-) TimerEvent: {}
+[13.125667] (-) TimerEvent: {}
+[13.226224] (-) TimerEvent: {}
+[13.327263] (-) TimerEvent: {}
+[13.430033] (-) TimerEvent: {}
+[13.530540] (-) TimerEvent: {}
+[13.631128] (-) TimerEvent: {}
+[13.731658] (-) TimerEvent: {}
+[13.833041] (-) TimerEvent: {}
+[13.933535] (-) TimerEvent: {}
+[14.034907] (-) TimerEvent: {}
+[14.135397] (-) TimerEvent: {}
+[14.239056] (-) TimerEvent: {}
+[14.339561] (-) TimerEvent: {}
+[14.440115] (-) TimerEvent: {}
+[14.540625] (-) TimerEvent: {}
+[14.641172] (-) TimerEvent: {}
+[14.741672] (-) TimerEvent: {}
+[14.842216] (-) TimerEvent: {}
+[14.943918] (-) TimerEvent: {}
+[15.044406] (-) TimerEvent: {}
+[15.145179] (-) TimerEvent: {}
+[15.246917] (-) TimerEvent: {}
+[15.347420] (-) TimerEvent: {}
+[15.447919] (-) TimerEvent: {}
+[15.549938] (-) TimerEvent: {}
+[15.650480] (-) TimerEvent: {}
+[15.751022] (-) TimerEvent: {}
+[15.852540] (-) TimerEvent: {}
+[15.953071] (-) TimerEvent: {}
+[16.055920] (-) TimerEvent: {}
+[16.156440] (-) TimerEvent: {}
+[16.257030] (-) TimerEvent: {}
+[16.357527] (-) TimerEvent: {}
+[16.458070] (-) TimerEvent: {}
+[16.559064] (-) TimerEvent: {}
+[16.662748] (-) TimerEvent: {}
+[16.763273] (-) TimerEvent: {}
+[16.863785] (-) TimerEvent: {}
+[16.964331] (-) TimerEvent: {}
+[17.064863] (-) TimerEvent: {}
+[17.097512] (mujoco_sim_ros2) StderrLine: {'line': b"\x1b[0m[ 11%] Creating directories for 'lodepng-populate'\n"}
+[17.097936] (mujoco_sim_ros2) StderrLine: {'line': b"[ 22%] Performing download step (git clone) for 'lodepng-populate'\n"}
+[17.098019] (mujoco_sim_ros2) StderrLine: {'line': b"\xe6\xad\xa3\xe5\x85\x8b\xe9\x9a\x86\xe5\x88\xb0 'lodepng-src'...\n"}
+[17.098081] (mujoco_sim_ros2) StderrLine: {'line': b"fatal: \xe6\x97\xa0\xe6\xb3\x95\xe8\xae\xbf\xe9\x97\xae 'https://github.com/lvandeve/lodepng.git/'\xef\xbc\x9agnutls_handshake() failed: The TLS connection was non-properly terminated.\n"}
+[17.098146] (mujoco_sim_ros2) StderrLine: {'line': b"\xe6\xad\xa3\xe5\x85\x8b\xe9\x9a\x86\xe5\x88\xb0 'lodepng-src'...\n"}
+[17.098204] (mujoco_sim_ros2) StderrLine: {'line': b"fatal: \xe6\x97\xa0\xe6\xb3\x95\xe8\xae\xbf\xe9\x97\xae 'https://github.com/lvandeve/lodepng.git/'\xef\xbc\x9agnutls_handshake() failed: The TLS connection was non-properly terminated.\n"}
+[17.098266] (mujoco_sim_ros2) StderrLine: {'line': b"\xe6\xad\xa3\xe5\x85\x8b\xe9\x9a\x86\xe5\x88\xb0 'lodepng-src'...\n"}
+[17.098321] (mujoco_sim_ros2) StderrLine: {'line': b"fatal: \xe6\x97\xa0\xe6\xb3\x95\xe8\xae\xbf\xe9\x97\xae 'https://github.com/lvandeve/lodepng.git/'\xef\xbc\x9agnutls_handshake() failed: The TLS connection was non-properly terminated.\n"}
+[17.098377] (mujoco_sim_ros2) StderrLine: {'line': b'-- Had to git clone more than once:\n'}
+[17.098438] (mujoco_sim_ros2) StderrLine: {'line': b'          3 times.\n'}
+[17.098497] (mujoco_sim_ros2) StderrLine: {'line': b'CMake Error at lodepng-subbuild/lodepng-populate-prefix/tmp/lodepng-populate-gitclone.cmake:31 (message):\n'}
+[17.098555] (mujoco_sim_ros2) StderrLine: {'line': b"  Failed to clone repository: 'https://github.com/lvandeve/lodepng.git'\n"}
+[17.098613] (mujoco_sim_ros2) StderrLine: {'line': b'\n'}
+[17.098669] (mujoco_sim_ros2) StderrLine: {'line': b'\n'}
+[17.098722] (mujoco_sim_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lodepng-populate.dir/build.make:102\xef\xbc\x9alodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-download] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[17.098789] (mujoco_sim_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:83\xef\xbc\x9aCMakeFiles/lodepng-populate.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[17.098862] (mujoco_sim_ros2) StderrLine: {'line': b'gmake: *** [Makefile:91\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[17.098923] (mujoco_sim_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[17.098979] (mujoco_sim_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FetchContent.cmake:1087 (message):\n'}
+[17.099034] (mujoco_sim_ros2) StderrLine: {'line': b'  Build step for lodepng failed: 2\n'}
+[17.099088] (mujoco_sim_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[17.099142] (mujoco_sim_ros2) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216:EVAL:2 (__FetchContent_directPopulate)\n'}
+[17.099197] (mujoco_sim_ros2) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216 (cmake_language)\n'}
+[17.099252] (mujoco_sim_ros2) StderrLine: {'line': b'  CMakeLists.txt:28 (FetchContent_Populate)\n'}
+[17.099306] (mujoco_sim_ros2) StderrLine: {'line': b'\n'}
+[17.099365] (mujoco_sim_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[17.099421] (mujoco_sim_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[17.099497] (mujoco_sim_ros2) StdoutLine: {'line': b'See also "/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2/CMakeFiles/CMakeOutput.log".\n'}
+[17.118040] (mujoco_sim_ros2) CommandEnded: {'returncode': 1}
+[17.170294] (-) TimerEvent: {}
+[17.184933] (mujoco_sim_ros2) JobEnded: {'identifier': 'mujoco_sim_ros2', 'rc': 1}
+[17.195400] (mujoco_ros2_control) JobSkipped: {'identifier': 'mujoco_ros2_control'}
+[17.195520] (mujoco_bridge) JobSkipped: {'identifier': 'mujoco_bridge'}
+[17.195545] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+[30.037s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/ros_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/ros_utils -- -j192 -l192
+[30.070s] CMake Error: The current CMakeCache.txt directory /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/ros_utils/CMakeCache.txt is different than the directory /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/ros_utils where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[30.118s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/ros_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/ros_utils -- -j192 -l192
+[30.156s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/ros_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/ros_utils
+[30.185s] -- Install configuration: ""
+[30.186s] -- Execute custom install script
+[30.186s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/include/ros_utils/topic_names.hpp
+[30.187s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ament_index/resource_index/package_run_dependencies/ros_utils
+[30.188s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ament_index/resource_index/parent_prefix_path/ros_utils
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/environment/ament_prefix_path.sh
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/environment/ament_prefix_path.dsv
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/environment/path.sh
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/environment/path.dsv
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/local_setup.bash
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/local_setup.sh
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/local_setup.zsh
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/local_setup.dsv
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/package.dsv
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ament_index/resource_index/packages/ros_utils
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.189s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/cmake/ros_utilsConfig.cmake
+[30.190s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/cmake/ros_utilsConfig-version.cmake
+[30.190s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils/share/ros_utils/package.xml
+[30.190s] CMake Error at cmake_install.cmake:57 (file):
+[30.190s]   file failed to open for writing (Read-only file system):
+[30.190s] 
+[30.190s]     /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/ros_utils/install_manifest.txt
+[30.190s] 
+[30.190s] 
+[60.063s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/ros_utils' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/ros_utils

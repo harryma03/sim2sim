@@ -1,0 +1,34 @@
+[0.001s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control -- -j192 -l192
+[0.082s] [ 10%] [32mBuilding CXX object CMakeFiles/mujoco_system_plugins.dir/src/mujoco_system.cpp.o[0m
+[0.089s] [ 20%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control-system.dir/src/mujoco_ros2_control.cpp.o[0m
+[0.089s] [ 30%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control_node.cpp.o[0m
+[0.090s] [ 40%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control.cpp.o[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_rendering.cpp.o[0m
+[0.091s] [ 60%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control-system.dir/src/mujoco_ros2_control_plugin.cpp.o[0m
+[0.093s] [ 70%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_cameras.cpp.o[0m
+[3.678s] [ 80%] [32m[1mLinking CXX shared library libmujoco_system_plugins.so[0m
+[3.854s] [ 80%] Built target mujoco_system_plugins
+[9.001s] gmake[2]: *** 正在删除文件“CMakeFiles/mujoco_ros2_control-system.dir/src/mujoco_ros2_control.cpp.o”
+[9.001s] gmake[2]: *** 正在删除文件“CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control.cpp.o”
+[9.002s] gmake[2]: *** [CMakeFiles/mujoco_ros2_control.dir/build.make:104: CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control.cpp.o] 中断
+[9.002s] gmake[2]: *** [CMakeFiles/mujoco_ros2_control-system.dir/build.make:90: CMakeFiles/mujoco_ros2_control-system.dir/src/mujoco_ros2_control.cpp.o] 中断
+[9.002s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/mujoco_ros2_control-system.dir/all] 中断
+[9.002s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mujoco_ros2_control.dir/all] 中断
+[9.003s] gmake: *** [Makefile:146: all] 中断
+[9.008s] Traceback (most recent call last):
+[9.008s]   File "/home/aiseon/.local/bin/cmake", line 6, in <module>
+[9.008s]     sys.exit(cmake())
+[9.008s]   File "/home/aiseon/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in cmake
+[9.008s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[9.008s]   File "/home/aiseon/.local/lib/python3.10/site-packages/cmake/__init__.py", line 39, in _program
+[9.008s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+[9.008s]   File "/usr/lib/python3.10/subprocess.py", line 347, in call
+[9.014s]     return p.wait(timeout=timeout)
+[9.014s]   File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+[9.015s]     return self._wait(timeout=timeout)
+[9.015s]   File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+[9.015s]     (pid, sts) = self._try_wait(0)
+[9.015s]   File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+[9.016s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[9.016s] KeyboardInterrupt
+[9.025s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control' returned '-2': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_sim_ros2/lib:${LD_LIBRARY_PATH} /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/mujoco_ros2_control -- -j192 -l192

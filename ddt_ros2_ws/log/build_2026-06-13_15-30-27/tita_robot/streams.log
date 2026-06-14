@@ -1,0 +1,39 @@
+[0.017s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/tita_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/tita_robot -- -j192 -l192
+[0.050s] [0mCMake Error: The current CMakeCache.txt directory /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/tita_robot/CMakeCache.txt is different than the directory /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_example.dir/test/read_write_example.cpp.o[0m
+[0.758s] [100%] [32m[1mLinking CXX executable read_write_example[0m
+[0.856s] [100%] Built target read_write_example
+[0.879s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/tita_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/tita_robot -- -j192 -l192
+[0.925s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/tita_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/tita_robot
+[0.962s] -- Install configuration: ""
+[0.962s] -- Execute custom install script
+[0.963s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib/libtita_robot.so
+[0.963s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib/tita_robot/read_write_example
+[0.963s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/library_path.sh
+[0.963s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/library_path.dsv
+[0.964s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/canfd_api.hpp
+[0.964s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/can_utils.hpp
+[0.964s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_common.hpp
+[0.964s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_id.hpp
+[0.964s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_receiver.hpp
+[0.965s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_sender.hpp
+[0.965s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/visibility_control.hpp
+[0.965s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/tita_robot.hpp
+[0.965s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/package_run_dependencies/tita_robot
+[0.965s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/parent_prefix_path/tita_robot
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/ament_prefix_path.sh
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/ament_prefix_path.dsv
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/path.sh
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/path.dsv
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.bash
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.sh
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.zsh
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.dsv
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/package.dsv
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/packages/tita_robot
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/ament_cmake_export_libraries-extras.cmake
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/tita_robotConfig.cmake
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/tita_robotConfig-version.cmake
+[0.966s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/package.xml
+[0.975s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/tita_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/tita_robot

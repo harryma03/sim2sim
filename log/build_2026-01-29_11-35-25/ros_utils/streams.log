@@ -1,0 +1,70 @@
+[0.020s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/ros_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/ros_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/ros_utils
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.173s] -- The CXX compiler identification is GNU 11.4.0
+[0.185s] -- Detecting C compiler ABI info
+[0.292s] -- Detecting C compiler ABI info - done
+[0.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.300s] -- Detecting C compile features
+[0.300s] -- Detecting C compile features - done
+[0.303s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.431s] -- Detecting CXX compile features
+[0.431s] -- Detecting CXX compile features - done
+[0.433s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.827s] -- Found Python3: /home/aiseon/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[0.902s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.057s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.061s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.069s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.135s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.137s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.260s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.291s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.348s] -- Looking for pthread.h
+[1.453s] -- Looking for pthread.h - found
+[1.453s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.564s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.566s] -- Found Threads: TRUE  
+[1.613s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.624s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/ros_utils` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.627s] -- Added test 'clang_format' to check C / C++ code style
+[1.628s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.628s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.629s] -- Configured cppcheck include dirs: 
+[1.629s] -- Configured cppcheck exclude dirs and/or files: 
+[1.629s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.629s] -- Configured cpplint exclude dirs and/or files: 
+[1.629s] -- Added test 'lint_cmake' to check CMake code style
+[1.630s] -- Added test 'xmllint' to check XML markup files
+[1.632s] -- Configuring done
+[1.634s] -- Generating done
+[1.636s] -- Build files have been written to: /home/aiseon/tita/sim2sim2real/build/ros_utils
+[1.645s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/ros_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/ros_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/ros_utils
+[1.649s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/ros_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/ros_utils -- -j192 -l192
+[1.703s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/ros_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/ros_utils -- -j192 -l192
+[1.714s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/ros_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/ros_utils
+[1.724s] -- Install configuration: ""
+[1.725s] -- Execute custom install script
+[1.725s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/include/ros_utils/topic_names.hpp
+[1.735s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ament_index/resource_index/package_run_dependencies/ros_utils
+[1.748s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ament_index/resource_index/parent_prefix_path/ros_utils
+[1.759s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/environment/ament_prefix_path.sh
+[1.770s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/environment/ament_prefix_path.dsv
+[1.779s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/environment/path.sh
+[1.789s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/environment/path.dsv
+[1.801s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/local_setup.bash
+[1.813s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/local_setup.sh
+[1.822s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/local_setup.zsh
+[1.833s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/local_setup.dsv
+[1.844s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/package.dsv
+[1.857s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ament_index/resource_index/packages/ros_utils
+[1.869s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.881s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.892s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/cmake/ros_utilsConfig.cmake
+[1.904s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/cmake/ros_utilsConfig-version.cmake
+[1.915s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/ros_utils/share/ros_utils/package.xml
+[1.930s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/ros_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/ros_utils

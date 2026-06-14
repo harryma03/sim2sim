@@ -1,0 +1,91 @@
+[0.018s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:/opt/ros/humble /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/interaction/teleop_command -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.190s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.306s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.435s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.436s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.438s] -- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.607s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.669s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.812s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.817s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.825s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.837s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.895s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.897s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.048s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.081s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.129s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.138s] -- Looking for pthread.h
+[1.249s] -- Looking for pthread.h - found
+[1.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.365s] -- Found Threads: TRUE  
+[1.493s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.509s] -- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.541s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.551s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/teleop_command` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.555s] -- Added test 'clang_format' to check C / C++ code style
+[1.556s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.557s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.557s] -- Configured cppcheck include dirs: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/interaction/teleop_command/include
+[1.557s] -- Configured cppcheck exclude dirs and/or files: 
+[1.558s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.558s] -- Configured cpplint exclude dirs and/or files: 
+[1.559s] -- Added test 'lint_cmake' to check CMake code style
+[1.559s] -- Added test 'xmllint' to check XML markup files
+[1.561s] -- Configuring done
+[1.583s] -- Generating done
+[1.588s] -- Build files have been written to: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command
+[1.601s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:/opt/ros/humble /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/interaction/teleop_command -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command
+[1.603s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:/opt/ros/humble /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command -- -j192 -l192
+[1.683s] [ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command/include/teleop_command/teleop_command_parameters.hpp /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/interaction/teleop_command/src/teleop_command_parameters.yaml `[0m
+[1.997s] [ 28%] [34m[1mCreating deprecated header file /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command/include/teleop_command_parameters.hpp[0m
+[2.022s] [ 28%] Built target teleop_command_parameters
+[2.060s] [ 42%] [32mBuilding CXX object CMakeFiles/teleop_command_lib.dir/src/teleop_command_node.cpp.o[0m
+[2.061s] [ 57%] [32mBuilding CXX object CMakeFiles/teleop_command_lib.dir/src/elrs_emwave_device.cpp.o[0m
+[10.299s] [ 71%] [32m[1mLinking CXX shared library libteleop_command_lib.so[0m
+[10.464s] [ 71%] Built target teleop_command_lib
+[10.505s] [ 85%] [32mBuilding CXX object CMakeFiles/teleop_command_node.dir/src/main.cpp.o[0m
+[13.106s] [100%] [32m[1mLinking CXX executable teleop_command_node[0m
+[13.256s] [100%] Built target teleop_command_node
+[13.272s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:/opt/ros/humble /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command -- -j192 -l192
+[13.275s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:/opt/ros/humble /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command
+[13.284s] -- Install configuration: ""
+[13.284s] -- Execute custom install script
+[13.285s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/include/teleop_command/teleop_command_parameters.hpp
+[13.296s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/launch/teleop_command.launch.py
+[13.305s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/config/param.yaml
+[13.318s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/include/teleop_command/elrs_emwave_device.hpp
+[13.330s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/include/teleop_command/teleop_command_node.hpp
+[13.339s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/environment/library_path.sh
+[13.351s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/environment/library_path.dsv
+[13.362s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/lib/libteleop_command_lib.so
+[13.373s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/lib/teleop_command/teleop_command_node
+[13.384s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/ament_index/resource_index/package_run_dependencies/teleop_command
+[13.396s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/ament_index/resource_index/parent_prefix_path/teleop_command
+[13.405s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/environment/ament_prefix_path.sh
+[13.416s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/environment/ament_prefix_path.dsv
+[13.428s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/environment/path.sh
+[13.438s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/environment/path.dsv
+[13.449s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/local_setup.bash
+[13.458s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/local_setup.sh
+[13.469s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/local_setup.zsh
+[13.480s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/local_setup.dsv
+[13.492s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/package.dsv
+[13.503s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/ament_index/resource_index/packages/teleop_command
+[13.515s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.528s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.540s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/cmake/ament_cmake_export_libraries-extras.cmake
+[13.552s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/cmake/teleop_commandConfig.cmake
+[13.562s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/cmake/teleop_commandConfig-version.cmake
+[13.574s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/teleop_command/share/teleop_command/package.xml
+[13.590s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:/opt/ros/humble /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/teleop_command

@@ -1,0 +1,38 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/mujoco_system_plugins.dir/src/mujoco_system.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control-system.dir/src/mujoco_ros2_control_plugin.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_rendering.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control-system.dir/src/mujoco_ros2_control.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_ros2_control.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/mujoco_ros2_control.dir/src/mujoco_cameras.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libmujoco_system_plugins.so[0m
+[ 80%] Built target mujoco_system_plugins
+[ 90%] [32m[1mLinking CXX executable mujoco_ros2_control[0m
+[100%] [32m[1mLinking CXX shared library libmujoco_ros2_control-system.so[0m
+[100%] Built target mujoco_ros2_control-system
+[100%] Built target mujoco_ros2_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control//mujoco_system_plugins.xml
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control//mujoco_ros2_control_plugins.xml
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib/mujoco_ros2_control/mujoco_ros2_control
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control//mujoco_system_plugins.xml
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2_control
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2_control
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/environment/path.sh
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/environment/path.dsv
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/local_setup.bash
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/local_setup.sh
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/local_setup.zsh
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/local_setup.dsv
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.dsv
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/ament_index/resource_index/packages/mujoco_ros2_control
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/ament_index/resource_index/mujoco_ros2_control__pluginlib__plugin/mujoco_ros2_control
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/ament_index/resource_index/mujoco_sim_ros2__pluginlib__plugin/mujoco_ros2_control
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig.cmake
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/cmake/mujoco_ros2_controlConfig-version.cmake
+-- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.xml
+-- Up-to-date: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib/libmujoco_system_plugins.so
+-- Up-to-date: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control/lib/libmujoco_ros2_control-system.so

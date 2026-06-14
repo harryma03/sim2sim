@@ -1,0 +1,29 @@
+[0.022s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2
+[0.894s] -- Configuring incomplete, errors occurred!
+[0.894s] See also "/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2/CMakeFiles/CMakeOutput.log".
+[0.894s] [0m[ 11%] Performing download step (git clone) for 'lodepng-populate'
+[0.894s] 正克隆到 'lodepng-src'...
+[0.894s] fatal: 无法访问 'https://hub.fgit.cf/https://github.com/lvandeve/lodepng.git/'：gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[0.894s] 正克隆到 'lodepng-src'...
+[0.894s] fatal: 无法访问 'https://hub.fgit.cf/https://github.com/lvandeve/lodepng.git/'：gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[0.894s] 正克隆到 'lodepng-src'...
+[0.894s] fatal: 无法访问 'https://hub.fgit.cf/https://github.com/lvandeve/lodepng.git/'：gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[0.894s] -- Had to git clone more than once:
+[0.895s]           3 times.
+[0.895s] CMake Error at lodepng-subbuild/lodepng-populate-prefix/tmp/lodepng-populate-gitclone.cmake:31 (message):
+[0.895s]   Failed to clone repository: 'https://github.com/lvandeve/lodepng.git'
+[0.895s] 
+[0.895s] 
+[0.895s] gmake[2]: *** [CMakeFiles/lodepng-populate.dir/build.make:102：lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-download] 错误 1
+[0.895s] gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/lodepng-populate.dir/all] 错误 2
+[0.895s] gmake: *** [Makefile:91：all] 错误 2
+[0.895s] [0m
+[0.895s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FetchContent.cmake:1087 (message):
+[0.895s]   Build step for lodepng failed: 2
+[0.895s] Call Stack (most recent call first):
+[0.895s]   /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216:EVAL:2 (__FetchContent_directPopulate)
+[0.895s]   /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216 (cmake_language)
+[0.895s]   CMakeLists.txt:28 (FetchContent_Populate)
+[0.896s] 
+[0.896s] [0m
+[0.899s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2

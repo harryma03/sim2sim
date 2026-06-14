@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/keyboard_controller': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/keyboard_controller -- -j192 -l192
+[0.045s] [0mCMake Error: The current CMakeCache.txt directory /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/keyboard_controller/CMakeCache.txt is different than the directory /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/keyboard_controller where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.126s] [ 33%] [32mBuilding CXX object CMakeFiles/keyboard_controller_node.dir/src/main.cpp.o[0m
+[0.126s] [ 66%] [32mBuilding CXX object CMakeFiles/keyboard_controller_node.dir/src/keyboard_controller.cpp.o[0m
+[4.972s] [100%] [32m[1mLinking CXX executable keyboard_controller_node[0m
+[5.218s] [100%] Built target keyboard_controller_node
+[5.242s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/keyboard_controller' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/keyboard_controller -- -j192 -l192
+[5.246s] Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/keyboard_controller': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/keyboard_controller
+[5.280s] -- Install configuration: ""
+[5.281s] -- Execute custom install script
+[5.281s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/include/keyboard_controller/keyboard_controller.hpp
+[5.281s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/lib/keyboard_controller/keyboard_controller_node
+[5.282s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/ament_index/resource_index/package_run_dependencies/keyboard_controller
+[5.282s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/ament_index/resource_index/parent_prefix_path/keyboard_controller
+[5.282s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/environment/ament_prefix_path.sh
+[5.282s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/environment/ament_prefix_path.dsv
+[5.282s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/environment/path.sh
+[5.283s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/environment/path.dsv
+[5.283s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/local_setup.bash
+[5.283s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/local_setup.sh
+[5.283s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/local_setup.zsh
+[5.283s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/local_setup.dsv
+[5.283s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/package.dsv
+[5.292s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/ament_index/resource_index/packages/keyboard_controller
+[5.292s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.292s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.292s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/cmake/keyboard_controllerConfig.cmake
+[5.292s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/cmake/keyboard_controllerConfig-version.cmake
+[5.292s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/keyboard_controller/share/keyboard_controller/package.xml
+[5.303s] Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/keyboard_controller' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/keyboard_controller

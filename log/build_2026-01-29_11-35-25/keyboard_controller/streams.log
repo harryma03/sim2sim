@@ -1,0 +1,75 @@
+[0.015s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/keyboard_controller': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/interaction/keyboard_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/keyboard_controller
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.165s] -- The CXX compiler identification is GNU 11.4.0
+[0.173s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.280s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.280s] -- Detecting C compile features
+[0.281s] -- Detecting C compile features - done
+[0.283s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.409s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.409s] -- Detecting CXX compile features
+[0.410s] -- Detecting CXX compile features - done
+[0.412s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.811s] -- Found Python3: /home/aiseon/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[0.886s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.042s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.046s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.054s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.119s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.122s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.258s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.288s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.338s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.346s] -- Looking for pthread.h
+[1.454s] -- Looking for pthread.h - found
+[1.455s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.570s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.572s] -- Found Threads: TRUE  
+[1.681s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.693s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/keyboard_controller` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.696s] -- Added test 'clang_format' to check C / C++ code style
+[1.696s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.697s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.697s] -- Configured cppcheck include dirs: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/interaction/keyboard_controller/include
+[1.697s] -- Configured cppcheck exclude dirs and/or files: 
+[1.698s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.698s] -- Configured cpplint exclude dirs and/or files: 
+[1.698s] -- Added test 'lint_cmake' to check CMake code style
+[1.698s] -- Added test 'xmllint' to check XML markup files
+[1.700s] -- Configuring done
+[1.708s] -- Generating done
+[1.712s] -- Build files have been written to: /home/aiseon/tita/sim2sim2real/build/keyboard_controller
+[1.721s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/keyboard_controller' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/interaction/keyboard_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/keyboard_controller
+[1.724s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/keyboard_controller': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/keyboard_controller -- -j192 -l192
+[1.798s] [ 33%] [32mBuilding CXX object CMakeFiles/keyboard_controller_node.dir/src/main.cpp.o[0m
+[1.799s] [ 66%] [32mBuilding CXX object CMakeFiles/keyboard_controller_node.dir/src/keyboard_controller.cpp.o[0m
+[6.675s] [100%] [32m[1mLinking CXX executable keyboard_controller_node[0m
+[6.916s] [100%] Built target keyboard_controller_node
+[6.934s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/keyboard_controller' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/build/keyboard_controller -- -j192 -l192
+[6.937s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/keyboard_controller': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/keyboard_controller
+[6.947s] -- Install configuration: ""
+[6.948s] -- Execute custom install script
+[6.948s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/include/keyboard_controller/keyboard_controller.hpp
+[6.961s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/lib/keyboard_controller/keyboard_controller_node
+[6.972s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/ament_index/resource_index/package_run_dependencies/keyboard_controller
+[6.983s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/ament_index/resource_index/parent_prefix_path/keyboard_controller
+[6.991s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/environment/ament_prefix_path.sh
+[7.002s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/environment/ament_prefix_path.dsv
+[7.011s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/environment/path.sh
+[7.022s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/environment/path.dsv
+[7.033s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/local_setup.bash
+[7.041s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/local_setup.sh
+[7.050s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/local_setup.zsh
+[7.060s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/local_setup.dsv
+[7.072s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/package.dsv
+[7.083s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/ament_index/resource_index/packages/keyboard_controller
+[7.093s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.103s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.114s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/cmake/keyboard_controllerConfig.cmake
+[7.123s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/cmake/keyboard_controllerConfig-version.cmake
+[7.134s] -- Symlinking: /home/aiseon/tita/sim2sim2real/install/keyboard_controller/share/keyboard_controller/package.xml
+[7.145s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/keyboard_controller' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/install/ros_utils:/usr/lib/cmake/mujoco:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/build/keyboard_controller

@@ -1,0 +1,1 @@
+/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2/ament_cmake_environment_hooks/local_setup.sh

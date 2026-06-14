@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aiseon/tita/sim2sim2real/build/webots_bridge/libwebots_bridge.so" "TARGETS" "webots_bridge" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

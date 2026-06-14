@@ -1,0 +1,10 @@
+/home/aiseon/tita/sim2sim2real/build/tita_robot/CMakeFiles/uninstall.dir
+/home/aiseon/tita/sim2sim2real/build/tita_robot/CMakeFiles/tita_robot_uninstall.dir
+/home/aiseon/tita/sim2sim2real/build/tita_robot/CMakeFiles/read_write_example.dir
+/home/aiseon/tita/sim2sim2real/build/tita_robot/CMakeFiles/test.dir
+/home/aiseon/tita/sim2sim2real/build/tita_robot/CMakeFiles/edit_cache.dir
+/home/aiseon/tita/sim2sim2real/build/tita_robot/CMakeFiles/rebuild_cache.dir
+/home/aiseon/tita/sim2sim2real/build/tita_robot/CMakeFiles/list_install_components.dir
+/home/aiseon/tita/sim2sim2real/build/tita_robot/CMakeFiles/install.dir
+/home/aiseon/tita/sim2sim2real/build/tita_robot/CMakeFiles/install/local.dir
+/home/aiseon/tita/sim2sim2real/build/tita_robot/CMakeFiles/install/strip.dir

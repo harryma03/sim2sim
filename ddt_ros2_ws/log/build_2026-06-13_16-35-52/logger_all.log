@@ -1,0 +1,1026 @@
+[0.109s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-up-to', 'mujoco_bridge']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=192, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['mujoco_bridge'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ef427e74d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ef427e748e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ef427e748e0>>)
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.309s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/My_unitree_go2_gym-main) by extension 'python_setup_py'
+[0.605s] DEBUG:colcon.colcon_core.package_identification:Package 'bipedal_locomotion_for_robot/My_unitree_go2_gym-main' with type 'python' and name 'my_unitree_go2_gym'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extensions ['cmake', 'python']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extension 'cmake'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extensions ['python_setup_py']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/__pycache__) by extension 'python_setup_py'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extension 'ros'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extension 'cmake'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extension 'python'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extensions ['python_setup_py']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm) by extension 'python_setup_py'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/algorithm/__pycache__) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extension 'ros'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extensions ['cmake', 'python']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extension 'cmake'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extension 'python'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extensions ['python_setup_py']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/configs/__pycache__) by extension 'python_setup_py'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extension 'ros'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extensions ['cmake', 'python']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extension 'cmake'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extension 'python'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extensions ['python_setup_py']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs) by extension 'python_setup_py'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extension 'ros'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extensions ['cmake', 'python']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extension 'cmake'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extension 'python'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/envs/__pycache__) by extension 'python_setup_py'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extension 'ros'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extensions ['cmake', 'python']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extension 'cmake'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extension 'python'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs) by extension 'python_setup_py'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun07_21-41-22_bipedal_wheel_stand_up) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extensions ['python_setup_py']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_21-36-53_bipedal_wheel_stand_up) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extensions ['python_setup_py']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/Jun10_22-52-03_bipedal_wheel_stand_up) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extension 'ros'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extensions ['cmake', 'python']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extension 'cmake'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extension 'python'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extensions ['python_setup_py']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May26_23-25-17_bipedal_wheel_stand) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extension 'ros'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_14-39-49_bipedal_wheel_stand) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-16-53_bipedal_wheel_stand) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/logs/bipedal_wheeled_titatit/May27_22-36-19_bipedal_wheel_stand) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extension 'python'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extensions ['python_setup_py']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/modules/__pycache__) by extension 'python_setup_py'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extension 'python'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extensions ['python_setup_py']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources) by extension 'python_setup_py'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extension 'ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extensions ['cmake', 'python']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extension 'cmake'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extension 'python'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extensions ['python_setup_py']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati) by extension 'python_setup_py'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extension 'ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extensions ['cmake', 'python']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extension 'cmake'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extension 'python'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extensions ['python_setup_py']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/dae) by extension 'python_setup_py'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/meshes) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/resources/titati/urdf) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extension 'ros'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extension 'python'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extension 'ros'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extension 'python'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/runner/__pycache__) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extension 'ros'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/__pycache__) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/configs) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/onnx) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extension 'python'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extensions ['python_setup_py']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description) by extension 'python_setup_py'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extension 'ros'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extensions ['cmake', 'python']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extension 'cmake'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extension 'python'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extensions ['python_setup_py']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/dae) by extension 'python_setup_py'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extension 'ros'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extensions ['cmake', 'python']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extension 'cmake'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/meshes) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/scenes) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extension 'python'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extensions ['python_setup_py']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/titatit_sim2sim/titatit_description/urdf) by extension 'python_setup_py'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extension 'ros'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extension 'cmake'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extension 'python'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extensions ['python_setup_py']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils) by extension 'python_setup_py'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extension 'ros'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extension 'cmake'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extension 'python'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(bipedal_locomotion_for_robot/utils/__pycache__) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'ros'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['cmake', 'python']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'cmake'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'python'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extensions ['python_setup_py']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller) by extension 'python_setup_py'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/controller/rl_controller) by extension 'ros'
+[0.631s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/controller/rl_controller' with type 'ros.ament_cmake' and name 'rl_controller'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'ros'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['cmake', 'python']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware) by extension 'python_setup_py'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/hardware_bridge) by extension 'ros'
+[0.633s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/hardware/hardware_bridge' with type 'ros.ament_cmake' and name 'hardware_bridge'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/hardware/tita_robot) by extension 'ros'
+[0.634s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/hardware/tita_robot' with type 'ros.ament_cmake' and name 'tita_robot'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'ros'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['cmake', 'python']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'cmake'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'python'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extensions ['python_setup_py']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction) by extension 'python_setup_py'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/keyboard_controller) by extension 'ros'
+[0.636s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/interaction/keyboard_controller' with type 'ros.ament_cmake' and name 'keyboard_controller'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/interaction/teleop_command) by extension 'ros'
+[0.637s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/interaction/teleop_command' with type 'ros.ament_cmake' and name 'teleop_command'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/ros_utils) by extension 'ros'
+[0.638s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/ros_utils' with type 'ros.ament_cmake' and name 'ros_utils'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'ros'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation) by extension 'python_setup_py'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extension 'ignore_ament_install'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/gazebo_bridge) by extension 'ros'
+[0.640s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/simulation/gazebo_bridge' with type 'ros.ament_cmake' and name 'gazebo_bridge'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'ros'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['cmake', 'python']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'cmake'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'python'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extensions ['python_setup_py']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge) by extension 'python_setup_py'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge) by extension 'ros'
+[0.643s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge' with type 'ros.ament_cmake' and name 'mujoco_bridge'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control) by extension 'ros'
+[0.645s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control' with type 'ros.ament_cmake' and name 'mujoco_ros2_control'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2' with type 'ros.ament_cmake' and name 'mujoco_sim_ros2'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/simulation/webots_bridge) by extension 'ros'
+[0.647s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/simulation/webots_bridge' with type 'ros.ament_cmake' and name 'webots_bridge'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'ros'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['cmake', 'python']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'cmake'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'python'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extensions ['python_setup_py']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs) by extension 'python_setup_py'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1_description) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/urdfs/d1_description' with type 'ros.ament_cmake' and name 'd1_description'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/d1h_description) by extension 'ros'
+[0.655s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/urdfs/d1h_description' with type 'ros.ament_cmake' and name 'd1h_description'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extension 'ignore_ament_install'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extensions ['colcon_pkg']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extension 'colcon_pkg'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extensions ['colcon_meta']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/tita_description) by extension 'ros'
+[0.658s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/urdfs/tita_description' with type 'ros.ament_cmake' and name 'tita_description'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(ddt_ros2_control/urdfs/titatit_description) by extension 'ros'
+[0.661s] DEBUG:colcon.colcon_core.package_identification:Package 'ddt_ros2_control/urdfs/titatit_description' with type 'ros.ament_cmake' and name 'titatit_description'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'teleop_command' in 'ddt_ros2_control/interaction/teleop_command'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'rl_controller' in 'ddt_ros2_control/controller/rl_controller'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'keyboard_controller' in 'ddt_ros2_control/interaction/keyboard_controller'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'hardware_bridge' in 'ddt_ros2_control/hardware/hardware_bridge'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'gazebo_bridge' in 'ddt_ros2_control/simulation/gazebo_bridge'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'webots_bridge' in 'ddt_ros2_control/simulation/webots_bridge'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'titatit_description' in 'ddt_ros2_control/urdfs/titatit_description'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'tita_robot' in 'ddt_ros2_control/hardware/tita_robot'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'tita_description' in 'ddt_ros2_control/urdfs/tita_description'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'ros_utils' in 'ddt_ros2_control/ros_utils'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'my_unitree_go2_gym' in 'bipedal_locomotion_for_robot/My_unitree_go2_gym-main'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'd1h_description' in 'ddt_ros2_control/urdfs/d1h_description'
+[0.684s] INFO:colcon.colcon_core.package_selection:Skipping package 'd1_description' in 'ddt_ros2_control/urdfs/d1_description'
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.686s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home.aiseon/mujoco_src' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.687s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install
+[0.688s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 458 installed packages in /opt/ros/humble
+[0.690s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_target' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'mujoco_sim_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.737s] DEBUG:colcon.colcon_core.verb:Building package 'mujoco_sim_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2', 'merge_install': False, 'path': '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.737s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.738s] DEBUG:colcon.colcon_core.verb:Building package 'mujoco_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control', 'merge_install': False, 'path': '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_target' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.738s] Level 5:colcon.colcon_core.verb:set package 'mujoco_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.738s] DEBUG:colcon.colcon_core.verb:Building package 'mujoco_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge', 'merge_install': False, 'path': '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.738s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.740s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2' with build type 'ament_cmake'
+[0.740s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2'
+[0.743s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2 -- -j192 -l192
+[0.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2 -- -j192 -l192
+[0.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2
+[1.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_sim_ros2)
+[1.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_sim_ros2
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2' for CMake module files
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2' for CMake config files
+[1.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_sim_ros2', 'cmake_prefix_path')
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.ps1'
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.dsv'
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.sh'
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/lib'
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/bin'
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/lib/pkgconfig/mujoco_sim_ros2.pc'
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/lib/python3.10/site-packages'
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/bin'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.ps1'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.dsv'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.sh'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.bash'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.zsh'
+[1.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/colcon-core/packages/mujoco_sim_ros2)
+[1.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_sim_ros2)
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2' for CMake module files
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2' for CMake config files
+[1.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_sim_ros2', 'cmake_prefix_path')
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.dsv'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/hook/cmake_prefix_path.sh'
+[1.031s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/lib'
+[1.031s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/bin'
+[1.031s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/lib/pkgconfig/mujoco_sim_ros2.pc'
+[1.031s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/lib/python3.10/site-packages'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/bin'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.ps1'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.dsv'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.sh'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.bash'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/mujoco_sim_ros2/package.zsh'
+[1.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/share/colcon-core/packages/mujoco_sim_ros2)
+[1.034s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control' with build type 'ament_cmake'
+[1.034s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_ros2_control'
+[1.034s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.034s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_ros2_control': CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/titatit_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/keyboard_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1h_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1_description:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_ros2_control -- -j192 -l192
+[1.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/titatit_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/keyboard_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1h_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1_description:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_ros2_control -- -j192 -l192
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_ros2_control': CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/titatit_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/keyboard_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1h_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1_description:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_ros2_control
+[1.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_ros2_control)
+[1.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/titatit_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/keyboard_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1h_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1_description:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_ros2_control
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control' for CMake module files
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control' for CMake config files
+[1.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_ros2_control', 'cmake_prefix_path')
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.sh'
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/lib'
+[1.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_ros2_control', 'ld_library_path_lib')
+[1.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.ps1'
+[1.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.sh'
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/bin'
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/lib/pkgconfig/mujoco_ros2_control.pc'
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/lib/python3.10/site-packages'
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/bin'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.ps1'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.dsv'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.sh'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.bash'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.zsh'
+[1.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/colcon-core/packages/mujoco_ros2_control)
+[1.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_ros2_control)
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control' for CMake module files
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control' for CMake config files
+[1.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_ros2_control', 'cmake_prefix_path')
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.ps1'
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.dsv'
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/cmake_prefix_path.sh'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/lib'
+[1.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_ros2_control', 'ld_library_path_lib')
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/hook/ld_library_path_lib.sh'
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/bin'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/lib/pkgconfig/mujoco_ros2_control.pc'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/lib/python3.10/site-packages'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/bin'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.ps1'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.dsv'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.sh'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.bash'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/mujoco_ros2_control/package.zsh'
+[1.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/share/colcon-core/packages/mujoco_ros2_control)
+[1.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge' with build type 'ament_cmake'
+[1.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_bridge'
+[1.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_bridge': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/titatit_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/keyboard_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1h_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1_description:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/lib:/home/aiseon/anaconda3/envs/MGDP/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/.mujoco/mujoco330/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/aiseon/.mujoco/mujoco330/bin:/home/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco210/bin /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_bridge -- -j192 -l192
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_bridge' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/titatit_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/keyboard_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1h_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1_description:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/lib:/home/aiseon/anaconda3/envs/MGDP/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/.mujoco/mujoco330/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/aiseon/.mujoco/mujoco330/bin:/home/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco210/bin /home/aiseon/.local/bin/cmake --build /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_bridge -- -j192 -l192
+[1.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_bridge': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/titatit_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/keyboard_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1h_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1_description:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/lib:/home/aiseon/anaconda3/envs/MGDP/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/.mujoco/mujoco330/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/aiseon/.mujoco/mujoco330/bin:/home/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco210/bin /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_bridge
+[1.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_bridge)
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge' for CMake module files
+[1.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_bridge' returned '0': AMENT_PREFIX_PATH=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/mujoco_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/titatit_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/keyboard_controller:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/ros_utils:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1h_description:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/d1_description:/home.aiseon/mujoco_src:/home.aiseon/mujoco_src:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_ros2_control/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/hardware_bridge/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/tita_robot/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/teleop_command/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/rl_controller/lib:/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_sim_ros2/lib:/home/aiseon/anaconda3/envs/MGDP/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/tita/sim2sim2real/mujoco/lib:/home/aiseon/.mujoco/mujoco330/bin:/home/aiseon/anaconda3/envs/rlgpu/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib:/home/aiseon/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/aiseon/.mujoco/mujoco330/bin:/home/.mujoco/mujoco210/bin:/home/aiseon/.mujoco/mujoco210/bin /home/aiseon/.local/bin/cmake --install /home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/build/mujoco_bridge
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge' for CMake config files
+[1.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_bridge', 'cmake_prefix_path')
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.ps1'
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.dsv'
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.sh'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/bin'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/lib/pkgconfig/mujoco_bridge.pc'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/lib/python3.10/site-packages'
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/bin'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.ps1'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.dsv'
+[1.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.sh'
+[1.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.bash'
+[1.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.zsh'
+[1.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/colcon-core/packages/mujoco_bridge)
+[1.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mujoco_bridge)
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge' for CMake module files
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge' for CMake config files
+[1.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('mujoco_bridge', 'cmake_prefix_path')
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.ps1'
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.dsv'
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/hook/cmake_prefix_path.sh'
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/bin'
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/lib/pkgconfig/mujoco_bridge.pc'
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/lib/python3.10/site-packages'
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/bin'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.ps1'
+[1.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.dsv'
+[1.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.sh'
+[1.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.bash'
+[1.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/mujoco_bridge/package.zsh'
+[1.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/mujoco_bridge/share/colcon-core/packages/mujoco_bridge)
+[1.440s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.441s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.441s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.441s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.447s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.447s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.458s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/local_setup.ps1'
+[1.461s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/_local_setup_util_ps1.py'
+[1.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/setup.ps1'
+[1.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/local_setup.sh'
+[1.463s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/_local_setup_util_sh.py'
+[1.464s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/setup.sh'
+[1.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/local_setup.bash'
+[1.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/setup.bash'
+[1.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/local_setup.zsh'
+[1.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aiseon/tita/sim2sim2real_bipedal/ddt_ros2_ws/install/setup.zsh'

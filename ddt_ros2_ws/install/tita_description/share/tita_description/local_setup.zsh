@@ -1,0 +1,1 @@
+/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_description/ament_cmake_environment_hooks/local_setup.zsh

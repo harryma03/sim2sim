@@ -1,0 +1,29 @@
+[0.025s] Invoking command in '/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2
+[1.603s] [0m[ 11%] Performing download step (git clone) for 'lodepng-populate'
+[1.603s] 正克隆到 'lodepng-src'...
+[1.604s] fatal: 无法访问 'https://hub.fgit.cf/https://github.com/lvandeve/lodepng.git/'：Could not resolve host: hub.fgit.cf
+[1.604s] 正克隆到 'lodepng-src'...
+[1.604s] fatal: 无法访问 'https://hub.fgit.cf/https://github.com/lvandeve/lodepng.git/'：Could not resolve host: hub.fgit.cf
+[1.604s] 正克隆到 'lodepng-src'...
+[1.604s] fatal: 无法访问 'https://hub.fgit.cf/https://github.com/lvandeve/lodepng.git/'：Could not resolve host: hub.fgit.cf
+[1.604s] -- Had to git clone more than once:
+[1.604s]           3 times.
+[1.604s] CMake Error at lodepng-subbuild/lodepng-populate-prefix/tmp/lodepng-populate-gitclone.cmake:31 (message):
+[1.604s]   Failed to clone repository: 'https://github.com/lvandeve/lodepng.git'
+[1.604s] 
+[1.604s] 
+[1.604s] gmake[2]: *** [CMakeFiles/lodepng-populate.dir/build.make:102：lodepng-populate-prefix/src/lodepng-populate-stamp/lodepng-populate-download] 错误 1
+[1.604s] gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/lodepng-populate.dir/all] 错误 2
+[1.604s] gmake: *** [Makefile:91：all] 错误 2
+[1.607s] -- Configuring incomplete, errors occurred!
+[1.609s] See also "/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2/CMakeFiles/CMakeOutput.log".
+[1.610s] [0m
+[1.610s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FetchContent.cmake:1087 (message):
+[1.610s]   Build step for lodepng failed: 2
+[1.610s] Call Stack (most recent call first):
+[1.610s]   /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216:EVAL:2 (__FetchContent_directPopulate)
+[1.611s]   /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216 (cmake_language)
+[1.611s]   CMakeLists.txt:28 (FetchContent_Populate)
+[1.611s] 
+[1.611s] [0m
+[1.611s] Invoked command in '/home/aiseon/tita/sim2sim2real/build/mujoco_sim_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/simulation/mujoco_bridge/mujoco_sim_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco_sim_ros2

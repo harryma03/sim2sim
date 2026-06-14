@@ -1,0 +1,9 @@
+prefix=/home/aiseon/tita/sim2sim2real/mujoco
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: mujoco
+Description: MuJoCo Physics Simulator
+Version: 2.3.7  # 版本号可根据你的实际版本调整
+Libs: -L${libdir} -lmujoco
+Cflags: -I${includedir}

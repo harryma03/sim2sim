@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+[0m-- CMAKE_SYSTEM_PROCESSOR: x86_64[0m
+-- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /home/aiseon/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/tita_robot` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/tita_robot
+[ 50%] [32mBuilding CXX object CMakeFiles/read_write_example.dir/test/read_write_example.cpp.o[0m
+[100%] [32m[1mLinking CXX executable read_write_example[0m
+[100%] Built target read_write_example
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib/libtita_robot.so
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/lib/tita_robot/read_write_example
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/library_path.sh
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/library_path.dsv
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/canfd_api.hpp
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/can_utils.hpp
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_common.hpp
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_id.hpp
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_receiver.hpp
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/socket_can_sender.hpp
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/protocol/visibility_control.hpp
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/include/tita_robot/tita_robot.hpp
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/package_run_dependencies/tita_robot
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/parent_prefix_path/tita_robot
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/path.sh
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/environment/path.dsv
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.bash
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.sh
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.zsh
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/local_setup.dsv
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/package.dsv
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/ament_index/resource_index/packages/tita_robot
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/tita_robotConfig.cmake
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/cmake/tita_robotConfig-version.cmake
+-- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/tita_robot/share/tita_robot/package.xml

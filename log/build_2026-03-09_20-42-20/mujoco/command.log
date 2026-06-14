@@ -1,0 +1,2 @@
+Invoking command in '/home/aiseon/tita/sim2sim2real/build/mujoco': /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/mujoco -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco
+Invoked command in '/home/aiseon/tita/sim2sim2real/build/mujoco' returned '-2': /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/mujoco -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/install/mujoco

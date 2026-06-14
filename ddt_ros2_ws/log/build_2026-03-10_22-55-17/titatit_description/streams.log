@@ -1,0 +1,59 @@
+[0.033s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/urdfs/titatit_description -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description
+[0.080s] [0mCurrently in ROS2 compilation environment[0m
+[0.080s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.501s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.808s] -- Configuring done
+[0.814s] -- Generating done
+[0.820s] -- Build files have been written to: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description
+[0.830s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/ddt_ros2_control/urdfs/titatit_description -DCMAKE_INSTALL_PREFIX=/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description
+[0.838s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description -- -j192 -l192
+[1.000s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description -- -j192 -l192
+[1.036s] Invoking command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description
+[1.066s] -- Install configuration: ""
+[1.071s] -- Execute custom install script
+[1.071s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/FL_battery.STL
+[1.072s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/FL_calf.STL
+[1.072s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/FL_foot.STL
+[1.072s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/FL_hip.STL
+[1.072s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/FL_thigh.STL
+[1.073s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/FR_battery.STL
+[1.073s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/FR_calf.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/FR_foot.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/FR_hip.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/FR_thigh.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/RL_battery.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/RL_calf.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/RL_foot.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/RL_hip.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/RL_thigh.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/RR_battery.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/RR_calf.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/RR_foot.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/RR_hip.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/RR_thigh.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/meshes/base.STL
+[1.074s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/mujoco/scene.xml
+[1.075s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/mujoco/wheeled_titatit_rl.urdf
+[1.075s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/mujoco/wheeled_titatit_rl.xml
+[1.075s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/urdf/titati_description.urdf
+[1.075s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/urdf/wheeled_titatit_rl.urdf
+[1.076s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/xacro/materials.xacro
+[1.076s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/xacro/robot.xacro
+[1.076s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/xacro/ros2control.xacro
+[1.080s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/xacro/single_robot.xacro
+[1.080s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/ament_index/resource_index/package_run_dependencies/titatit_description
+[1.080s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/ament_index/resource_index/parent_prefix_path/titatit_description
+[1.080s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/environment/ament_prefix_path.sh
+[1.080s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/environment/ament_prefix_path.dsv
+[1.081s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/environment/path.sh
+[1.081s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/environment/path.dsv
+[1.081s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/local_setup.bash
+[1.081s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/local_setup.sh
+[1.081s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/local_setup.zsh
+[1.082s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/local_setup.dsv
+[1.082s] -- Symlinking: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/package.dsv
+[1.118s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/ament_index/resource_index/packages/titatit_description
+[1.120s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/cmake/titatit_descriptionConfig.cmake
+[1.120s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/cmake/titatit_descriptionConfig-version.cmake
+[1.120s] -- Up-to-date symlink: /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/install/titatit_description/share/titatit_description/package.xml
+[1.127s] Invoked command in '/home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/aiseon/tita/sim2sim2real/ddt_ros2_ws/build/titatit_description
